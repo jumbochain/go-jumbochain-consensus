@@ -26,10 +26,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/prysmaticlabs/go-bitfield"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/p2p/enr"
 )
 
 func TestProcessPendingAtts_NoBlockRequestBlock(t *testing.T) {

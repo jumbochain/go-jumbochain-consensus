@@ -1,7 +1,7 @@
 package test_helpers
 
 import (
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func FillByteSlice(sliceLength int, value byte) []byte {

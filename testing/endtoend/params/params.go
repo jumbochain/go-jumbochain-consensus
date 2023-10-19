@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain.org/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/jumbochain/go-jumbochain-consensus/io/file"

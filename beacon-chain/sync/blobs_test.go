@@ -24,10 +24,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethTypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	"jumbochain.org/common"
-	gethTypes "jumbochain.org/core/types"
 )
 
 type blobsTestCase struct {

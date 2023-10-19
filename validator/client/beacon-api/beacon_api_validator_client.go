@@ -10,8 +10,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 type beaconApiValidatorClient struct {

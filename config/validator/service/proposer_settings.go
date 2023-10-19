@@ -7,9 +7,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/validator"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // ToSettings converts struct to ProposerSettings

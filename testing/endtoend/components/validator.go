@@ -23,9 +23,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 const DefaultFeeRecipientAddress = "0x099FB65722e7b2455043bfebF6177f1D2E9738d9"

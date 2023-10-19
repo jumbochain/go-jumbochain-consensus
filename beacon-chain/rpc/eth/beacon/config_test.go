@@ -11,8 +11,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/network/forks"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common"
 )
 
 func TestGetSpec(t *testing.T) {

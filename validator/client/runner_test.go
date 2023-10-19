@@ -15,9 +15,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/testutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
 )
 
 func cancelledContext() context.Context {

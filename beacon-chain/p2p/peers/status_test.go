@@ -18,11 +18,11 @@ import (
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/p2p/enr"
 )
 
 func TestStatus(t *testing.T) {

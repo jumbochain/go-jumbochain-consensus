@@ -19,12 +19,12 @@ import (
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/p2p/discover"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 func TestStartDiscv5_DifferentForkDigests(t *testing.T) {

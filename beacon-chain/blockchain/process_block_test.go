@@ -37,10 +37,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/pkg/errors"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
-	gethtypes "jumbochain.org/core/types"
 )
 
 func TestStore_OnBlockBatch(t *testing.T) {

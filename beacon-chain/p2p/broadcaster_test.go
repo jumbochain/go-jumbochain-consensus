@@ -21,11 +21,11 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/prysmaticlabs/go-bitfield"
 	"google.golang.org/protobuf/proto"
-	"jumbochain.org/p2p/discover"
 )
 
 func TestService_Broadcast(t *testing.T) {

@@ -17,8 +17,8 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 type metadata struct {

@@ -3,7 +3,7 @@ package params
 import (
 	"math"
 
-	eth1Params "jumbochain.org/params"
+	eth1Params "github.com/jumbochain/jumbochain-parlia-go/params"
 )
 
 // UsePraterNetworkConfig uses the Prater specific

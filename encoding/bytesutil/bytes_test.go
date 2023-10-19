@@ -8,7 +8,7 @@ import (
 
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestTruncate(t *testing.T) {

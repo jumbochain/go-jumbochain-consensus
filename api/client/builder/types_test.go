@@ -18,8 +18,8 @@ import (
 	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/common/hexutil"
 )
 
 func ezDecode(t *testing.T, s string) []byte {

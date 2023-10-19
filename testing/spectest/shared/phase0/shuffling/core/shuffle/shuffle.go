@@ -13,7 +13,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/spectest/utils"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 // RunShuffleTests executes "shuffling/core/shuffle" tests.

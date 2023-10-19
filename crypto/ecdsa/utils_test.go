@@ -9,8 +9,8 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	gcrypto "github.com/jumbochain/jumbochain-parlia-go/crypto"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	gcrypto "jumbochain.org/crypto"
 )
 
 func TestConvertToInterfacePubkey(t *testing.T) {

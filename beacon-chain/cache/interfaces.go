@@ -5,7 +5,7 @@ import (
 	"math/big"
 
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 // DepositCache combines the interfaces for retrieving and inserting deposit information.

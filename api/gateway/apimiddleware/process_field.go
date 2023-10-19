@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/wealdtech/go-bytesutil"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // processField calls each processor function on any field that has the matching tag set.

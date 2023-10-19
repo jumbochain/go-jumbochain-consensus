@@ -6,7 +6,7 @@ import (
 
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 func TestStore_DepositContract(t *testing.T) {

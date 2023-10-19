@@ -12,8 +12,8 @@ import (
 
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/internal"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/stretchr/testify/assert"
-	"jumbochain.org/common/hexutil"
 )
 
 // mockTransport is the mock Transport object

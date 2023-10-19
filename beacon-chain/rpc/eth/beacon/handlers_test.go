@@ -38,9 +38,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/mock"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestPublishBlock(t *testing.T) {

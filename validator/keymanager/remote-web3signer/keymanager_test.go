@@ -15,8 +15,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/internal"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1/mock"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/stretchr/testify/assert"
-	"jumbochain.org/common/hexutil"
 )
 
 type MockClient struct {

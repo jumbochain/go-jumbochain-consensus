@@ -7,9 +7,9 @@ import (
 
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
-	"jumbochain.org/accounts/keystore"
-	"jumbochain.org/core/types"
-	"jumbochain.org/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/keystore"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
 )
 
 // NetworkId is the ID of the ETH1 chain.

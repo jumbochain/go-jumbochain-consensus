@@ -9,8 +9,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
 	state_native "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
 )
 
 // FaultyExecutionChain defines an incorrectly functioning powchain service.

@@ -31,13 +31,13 @@ import (
 	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 	ethpbalpha "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // GetAggregateAttestation aggregates all attestations matching the given attestation data root and slot, returning the aggregated result.

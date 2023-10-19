@@ -1,4 +1,4 @@
-// This code was adapted from https://jumbochain.org/blob/master/cmd/geth/usage.go
+// This code was adapted from https://github.com/jumbochain/jumbochain-parlia-go/blob/master/cmd/geth/usage.go
 package main
 
 import (

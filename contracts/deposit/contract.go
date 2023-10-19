@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "jumbochain.org"
-	"jumbochain.org/accounts/abi"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/common"
-	"jumbochain.org/core/types"
-	"jumbochain.org/event"
+	ethereum "github.com/jumbochain/jumbochain-parlia-go"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -19,14 +19,14 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	noise "github.com/libp2p/go-libp2p/p2p/security/noise"
 	"github.com/multiformats/go-multiaddr"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/p2p/discover"
-	"jumbochain.org/p2p/enode"
 )
 
 type mockListener struct {

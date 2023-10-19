@@ -7,9 +7,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/cmd"
 	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
 	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common/hexutil"
 )
 
 const (

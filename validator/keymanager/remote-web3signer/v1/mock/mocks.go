@@ -8,8 +8,8 @@ import (
 	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	v1 "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/common/hexutil"
 )
 
 /////////////////////////////////////////////////////////////////////////////////////////////////

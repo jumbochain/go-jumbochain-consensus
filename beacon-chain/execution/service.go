@@ -33,14 +33,14 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethRPC "github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethRPC "jumbochain.org/rpc"
 )
 
 var (

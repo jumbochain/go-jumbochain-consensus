@@ -10,8 +10,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 func (c beaconApiValidatorClient) proposeBeaconBlock(ctx context.Context, in *ethpb.GenericSignedBeaconBlock) (*ethpb.ProposeResponse, error) {

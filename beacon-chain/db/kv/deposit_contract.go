@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 // DepositContractAddress returns contract address is the address of

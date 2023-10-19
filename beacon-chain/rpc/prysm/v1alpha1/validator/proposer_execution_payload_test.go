@@ -18,9 +18,9 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
-	gethtypes "jumbochain.org/core/types"
 )
 
 func TestServer_activationEpochNotReached(t *testing.T) {

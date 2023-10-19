@@ -13,10 +13,10 @@ import (
 	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/p2p/discover"
-	"jumbochain.org/p2p/enode"
 )
 
 func TestMain(m *testing.M) {

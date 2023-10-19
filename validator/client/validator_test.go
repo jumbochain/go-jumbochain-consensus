@@ -38,13 +38,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/local"
 	remoteweb3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 func init() {

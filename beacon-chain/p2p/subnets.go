@@ -8,11 +8,11 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/wrapper"
 	mathutil "github.com/jumbochain/go-jumbochain-consensus/math"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 	"go.opencensus.io/trace"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"

@@ -17,9 +17,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	logtest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common/hexutil"
 )
 
 func getHappyPathTestServer(file string, t *testing.T) *httptest.Server {

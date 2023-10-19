@@ -13,14 +13,14 @@ import (
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/policies"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/rpc"
 )
 
 var FeeRecipientIsPresent = types.Evaluator{

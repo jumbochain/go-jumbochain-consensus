@@ -14,13 +14,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/keystore"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
-	"jumbochain.org/accounts/keystore"
-	"jumbochain.org/common"
-	"jumbochain.org/core/types"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/rpc"
 )
 
 type TransactionGenerator struct {

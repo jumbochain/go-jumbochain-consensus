@@ -8,9 +8,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution/types"
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/monitoring/tracing"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 // searchThreshold to apply for when searching for blocks of a particular time. If the buffer

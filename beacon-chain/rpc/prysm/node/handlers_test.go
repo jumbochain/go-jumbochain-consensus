@@ -14,12 +14,12 @@ import (
 	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	corenet "github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	libp2ptest "github.com/libp2p/go-libp2p/p2p/host/peerstore/test"
 	ma "github.com/multiformats/go-multiaddr"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 type testIdentity enode.ID

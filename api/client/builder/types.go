@@ -12,8 +12,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/math"
 	v1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 var errInvalidUint256 = errors.New("invalid Uint256")

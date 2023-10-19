@@ -5,7 +5,7 @@ import (
 
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/fdlimits"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
-	gethLimit "jumbochain.org/common/fdlimit"
+	gethLimit "github.com/jumbochain/jumbochain-parlia-go/common/fdlimit"
 )
 
 func TestSetMaxFdLimits(t *testing.T) {

@@ -32,17 +32,17 @@ import (
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	gcrypto "github.com/jumbochain/jumbochain-parlia-go/crypto"
+	gethlog "github.com/jumbochain/jumbochain-parlia-go/log"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/sirupsen/logrus"
-	gcrypto "jumbochain.org/crypto"
-	gethlog "jumbochain.org/log"
-	"jumbochain.org/p2p/discover"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 var (

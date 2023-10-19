@@ -8,9 +8,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	tracing2 "github.com/jumbochain/go-jumbochain-consensus/monitoring/tracing"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	fastssz "github.com/prysmaticlabs/fastssz"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common"
 )
 
 func configureTracing(cliCtx *cli.Context) error {

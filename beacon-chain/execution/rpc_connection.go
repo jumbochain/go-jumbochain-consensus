@@ -12,9 +12,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/io/logs"
 	"github.com/jumbochain/go-jumbochain-consensus/network"
 	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	gethRPC "github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
-	"jumbochain.org/ethclient"
-	gethRPC "jumbochain.org/rpc"
 )
 
 func (s *Service) setupExecutionClientConnections(ctx context.Context, currEndpoint network.Endpoint) error {

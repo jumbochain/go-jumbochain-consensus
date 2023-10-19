@@ -12,9 +12,9 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/mock"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestGetGenesis(t *testing.T) {

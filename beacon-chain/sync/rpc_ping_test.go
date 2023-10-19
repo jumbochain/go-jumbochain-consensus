@@ -19,9 +19,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	"jumbochain.org/p2p/enr"
 )
 
 func TestPingRPCHandler_ReceivesPing(t *testing.T) {

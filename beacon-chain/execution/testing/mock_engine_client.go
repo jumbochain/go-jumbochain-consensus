@@ -14,9 +14,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/math"
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // EngineClient --

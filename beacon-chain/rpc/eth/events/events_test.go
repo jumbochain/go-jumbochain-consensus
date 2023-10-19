@@ -28,9 +28,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/mock"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
 	"google.golang.org/protobuf/types/known/anypb"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestStreamEvents_Preconditions(t *testing.T) {

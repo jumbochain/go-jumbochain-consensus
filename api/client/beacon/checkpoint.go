@@ -18,7 +18,7 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/mod/semver"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 var errCheckpointBlockMismatch = errors.New("mismatch between checkpoint sync state and block")

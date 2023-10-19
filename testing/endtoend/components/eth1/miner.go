@@ -18,12 +18,12 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/common"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/rpc"
 )
 
 const (

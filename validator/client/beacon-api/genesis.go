@@ -9,8 +9,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/beacon"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 type genesisProvider interface {

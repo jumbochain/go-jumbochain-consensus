@@ -21,7 +21,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestExpectedWithdrawals_BadRequest(t *testing.T) {

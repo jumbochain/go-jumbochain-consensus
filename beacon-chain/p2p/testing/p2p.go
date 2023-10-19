@@ -14,6 +14,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers/scorers"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	core "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/control"
@@ -27,7 +28,6 @@ import (
 	ssz "github.com/prysmaticlabs/fastssz"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"
-	"jumbochain.org/p2p/enr"
 )
 
 // We have to declare this again here to prevent a circular dependency

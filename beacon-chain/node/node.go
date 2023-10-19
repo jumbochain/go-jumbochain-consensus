@@ -61,10 +61,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/debug"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/prereqs"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common"
 )
 
 const testSkipPowFlag = "test-skip-pow"

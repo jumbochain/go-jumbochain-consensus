@@ -34,8 +34,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
 )
 
 func setupBeaconChain(t *testing.T, beaconDB db.Database) *Service {

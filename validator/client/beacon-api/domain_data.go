@@ -7,8 +7,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/jumbochain/go-jumbochain-consensus/network/forks"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 func (c beaconApiValidatorClient) getDomainData(ctx context.Context, epoch primitives.Epoch, domainType [4]byte) (*ethpb.DomainResponse, error) {

@@ -22,12 +22,12 @@ import (
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/rpc"
 )
 
 const (

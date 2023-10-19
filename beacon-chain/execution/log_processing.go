@@ -23,12 +23,12 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/common"
-	gethtypes "jumbochain.org/core/types"
 )
 
 var (

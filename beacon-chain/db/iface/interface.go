@@ -14,7 +14,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/jumbochain/go-jumbochain-consensus/monitoring/backup"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 // ReadOnlyDatabase defines a struct which only has read access to database methods.

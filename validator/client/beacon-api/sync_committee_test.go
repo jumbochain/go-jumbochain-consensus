@@ -19,8 +19,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/mock"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestSubmitSyncMessage_Valid(t *testing.T) {

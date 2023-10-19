@@ -23,10 +23,10 @@ import (
 	dbTest "github.com/jumbochain/go-jumbochain-consensus/validator/db/testing"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	remoteweb3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	logtest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // Test that the sharding node can build with default flag values.

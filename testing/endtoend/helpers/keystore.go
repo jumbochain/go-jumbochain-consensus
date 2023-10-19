@@ -3,8 +3,8 @@ package helpers
 import (
 	"os"
 
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/keystore"
 	"github.com/pkg/errors"
-	"jumbochain.org/accounts/keystore"
 )
 
 // KeyFromPath should only be used in endtoend tests. It is a simple helper to init a geth keystore.Key from a file.

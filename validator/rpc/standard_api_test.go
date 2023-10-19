@@ -39,13 +39,13 @@ import (
 	remoteweb3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history/format"
 	mocks "github.com/jumbochain/go-jumbochain-consensus/validator/testing"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestServer_ListKeystores(t *testing.T) {

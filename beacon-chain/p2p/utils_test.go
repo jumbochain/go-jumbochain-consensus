@@ -7,9 +7,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/crypto"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/crypto"
-	"jumbochain.org/p2p/enode"
 )
 
 // Test `verifyConnectivity` function by trying to connect to google.com (successfully)

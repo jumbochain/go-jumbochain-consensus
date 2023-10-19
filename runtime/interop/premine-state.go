@@ -19,8 +19,8 @@ import (
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/pkg/errors"
-	"jumbochain.org/core/types"
 )
 
 var errUnsupportedVersion = errors.New("schema version not supported by PremineGenesisConfig")

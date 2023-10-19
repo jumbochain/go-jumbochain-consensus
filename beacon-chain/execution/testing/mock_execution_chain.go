@@ -15,12 +15,12 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind/backends"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethTypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
-	"jumbochain.org/accounts/abi/bind/backends"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethTypes "jumbochain.org/core/types"
-	"jumbochain.org/rpc"
 )
 
 // Chain defines a properly functioning mock for the powchain service.

@@ -9,7 +9,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	v1 "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1/mock"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestGetAggregateAndProofSignRequest(t *testing.T) {

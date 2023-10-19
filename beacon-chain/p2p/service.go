@@ -20,6 +20,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/host"
@@ -30,8 +32,6 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 var _ runtime.Service = (*Service)(nil)

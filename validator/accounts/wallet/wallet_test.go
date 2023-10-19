@@ -13,8 +13,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/iface"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
 	remoteweb3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/common/hexutil"
 )
 
 func init() {

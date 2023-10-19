@@ -25,14 +25,14 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind/backends"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethTypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org"
-	"jumbochain.org/accounts/abi/bind/backends"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethTypes "jumbochain.org/core/types"
-	"jumbochain.org/rpc"
 )
 
 var _ ChainStartFetcher = (*Service)(nil)

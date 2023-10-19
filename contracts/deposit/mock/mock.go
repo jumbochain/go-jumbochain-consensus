@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	"github.com/jumbochain/go-jumbochain-consensus/contracts/deposit"
-	"jumbochain.org/accounts/abi"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/accounts/abi/bind/backends"
-	"jumbochain.org/common"
-	"jumbochain.org/core"
-	"jumbochain.org/core/types"
-	"jumbochain.org/crypto"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind/backends"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/core"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/crypto"
 )
 
 var (

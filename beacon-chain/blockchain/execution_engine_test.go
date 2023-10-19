@@ -24,9 +24,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
-	gethtypes "jumbochain.org/core/types"
 )
 
 func Test_NotifyForkchoiceUpdate_GetPayloadAttrErrorCanContinue(t *testing.T) {

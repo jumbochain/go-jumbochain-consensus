@@ -9,8 +9,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/cmd"
 	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common/hexutil"
 )
 
 func Test_generateJWTSecret(t *testing.T) {

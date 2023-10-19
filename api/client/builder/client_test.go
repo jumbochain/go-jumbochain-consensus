@@ -22,9 +22,9 @@ import (
 	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/common/hexutil"
 )
 
 type roundtrip func(*http.Request) (*http.Response, error)

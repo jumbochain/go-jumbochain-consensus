@@ -3,7 +3,7 @@ package params
 import (
 	"math"
 
-	eth1Params "jumbochain.org/params"
+	eth1Params "github.com/jumbochain/jumbochain-parlia-go/params"
 )
 
 // UseSepoliaNetworkConfig uses the Sepolia beacon chain specific network config.

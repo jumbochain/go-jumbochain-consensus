@@ -8,7 +8,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestRegistrationCache(t *testing.T) {

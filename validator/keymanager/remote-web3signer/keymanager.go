@@ -18,10 +18,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/internal"
 	web3signerv1 "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/common/hexutil"
 )
 
 // SetupConfig includes configuration values for initializing.

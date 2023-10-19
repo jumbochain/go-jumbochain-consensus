@@ -15,10 +15,10 @@ import (
 	"time"
 
 	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/params"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/common"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/params"
 )
 
 var (

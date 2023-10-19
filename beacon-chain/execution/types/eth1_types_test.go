@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 func TestRoundtrip_HeaderInfo(t *testing.T) {

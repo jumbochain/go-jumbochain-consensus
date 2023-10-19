@@ -15,9 +15,9 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 // CurrentSlot returns the current slot based on time.

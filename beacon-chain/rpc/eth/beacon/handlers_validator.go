@@ -17,8 +17,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common/hexutil"
 )
 
 // GetValidators returns filterable list of validators with their balance, status and index.

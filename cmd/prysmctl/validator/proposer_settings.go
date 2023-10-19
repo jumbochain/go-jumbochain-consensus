@@ -14,10 +14,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
 	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 func getProposerSettings(c *cli.Context, r io.Reader) error {

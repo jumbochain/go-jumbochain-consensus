@@ -8,7 +8,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
 	"github.com/jumbochain/go-jumbochain-consensus/network"
 	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 type Option func(s *Service) error

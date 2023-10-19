@@ -8,7 +8,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 func TestHashKeyFn_OK(t *testing.T) {

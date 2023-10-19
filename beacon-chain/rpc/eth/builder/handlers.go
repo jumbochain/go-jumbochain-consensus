@@ -13,8 +13,8 @@ import (
 	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 )
 
 // ExpectedWithdrawals get the withdrawals computed from the specified state, that will be included in the block that gets built on the specified state.

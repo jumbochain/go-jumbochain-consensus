@@ -3,8 +3,8 @@ package deposit
 import (
 	"bytes"
 
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi"
 	"github.com/pkg/errors"
-	"jumbochain.org/accounts/abi"
 )
 
 // UnpackDepositLogData unpacks the data from a deposit log using the ABI decoder.

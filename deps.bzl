@@ -1018,7 +1018,7 @@ def prysm_deps():
         build_directives = [
             "gazelle:resolve go github.com/karalabe/usb @prysm//third_party/usb:go_default_library",
         ],
-        importpath = "jumbochain.org",
+        importpath = "github.com/jumbochain/jumbochain-parlia-go",
         patch_args = ["-p1"],
         patches = [
             "//third_party:com_github_ethereum_go_ethereum_secp256k1.patch",
@@ -3916,8 +3916,8 @@ def prysm_deps():
     go_repository(
         name = "com_github_syndtr_goleveldb",
         importpath = "github.com/syndtr/goleveldb",
-        sum = "h1:vfofYNRScrDdvS342BElfbETmL1Aiz3i2t0zfRj16Hs=",
-        version = "v1.0.1-0.20220721030215-126854af5e6d",
+        sum = "h1:fBdIW9lB4Iz0n9khmH8w27SJ3QEJ7+IgjPEwGSZiFdE=",
+        version = "v1.0.0",
     )
     go_repository(
         name = "com_github_tarm_serial",

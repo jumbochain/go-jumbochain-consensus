@@ -14,10 +14,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // validateMergeBlock validates terminal block hash in the event of manual overrides before checking for total difficulty.

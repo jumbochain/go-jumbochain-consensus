@@ -10,7 +10,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 type TestCase struct {

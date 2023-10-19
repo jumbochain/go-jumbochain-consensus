@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	"github.com/btcsuite/btcd/btcec/v2"
+	gcrypto "github.com/jumbochain/jumbochain-parlia-go/crypto"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/pkg/errors"
-	gcrypto "jumbochain.org/crypto"
 )
 
 func ConvertFromInterfacePrivKey(privkey crypto.PrivKey) (*ecdsa.PrivateKey, error) {

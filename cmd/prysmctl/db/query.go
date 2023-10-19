@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	bolt "go.etcd.io/bbolt"
-	"jumbochain.org/common/hexutil"
 )
 
 var queryFlags = struct {

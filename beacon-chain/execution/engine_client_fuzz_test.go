@@ -14,11 +14,11 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/jumbochain-parlia-go/beacon/engine"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/pkg/errors"
-	"jumbochain.org/beacon/engine"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	"jumbochain.org/core/types"
 )
 
 func FuzzForkChoiceResponse(f *testing.F) {

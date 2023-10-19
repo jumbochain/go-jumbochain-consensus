@@ -10,8 +10,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/validator"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestStore_ProposerSettings_ReadAndWrite(t *testing.T) {

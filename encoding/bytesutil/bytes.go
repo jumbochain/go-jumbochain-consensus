@@ -4,7 +4,7 @@ package bytesutil
 import (
 	"fmt"
 
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 // ToBytes48Array is a convenience method for converting an array of

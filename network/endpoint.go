@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
+	gethRPC "github.com/jumbochain/jumbochain-parlia-go/rpc"
 	log "github.com/sirupsen/logrus"
-	gethRPC "jumbochain.org/rpc"
 )
 
 // Endpoint is an endpoint with authorization data.

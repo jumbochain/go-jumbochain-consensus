@@ -7,10 +7,10 @@ import (
 
 	clparams "github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	"jumbochain.org/core"
-	"jumbochain.org/params"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/core"
+	"github.com/jumbochain/jumbochain-parlia-go/params"
 )
 
 // defaultMinerAddress is used to send deposits and test transactions in the e2e test.

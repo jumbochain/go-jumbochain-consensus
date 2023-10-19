@@ -10,8 +10,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/math"
 	protodb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
 )
 
 var (

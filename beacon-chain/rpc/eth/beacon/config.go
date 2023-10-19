@@ -10,11 +10,11 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/jumbochain/go-jumbochain-consensus/network/forks"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common/hexutil"
 )
 
 // GetForkSchedule retrieve all scheduled upcoming forks this node is aware of.

@@ -3,7 +3,7 @@ package p2p
 import (
 	"context"
 
-	"jumbochain.org/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
 )
 
 // filterNodes wraps an iterator such that Next only returns nodes for which

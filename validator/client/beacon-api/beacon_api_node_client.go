@@ -10,9 +10,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/apimiddleware"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"jumbochain.org/common/hexutil"
 )
 
 type beaconApiNodeClient struct {

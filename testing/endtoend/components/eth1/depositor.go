@@ -15,13 +15,13 @@ import (
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/keystore"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/accounts/abi/bind"
-	"jumbochain.org/accounts/keystore"
-	"jumbochain.org/common"
-	gethtypes "jumbochain.org/core/types"
-	"jumbochain.org/ethclient"
 )
 
 var gweiPerEth = big.NewInt(int64(params.BeaconConfig().GweiPerEth))

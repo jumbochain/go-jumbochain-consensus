@@ -29,14 +29,14 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/discover"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/prysmaticlabs/go-bitfield"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/p2p/discover"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 var discoveryWaitTime = 1 * time.Second

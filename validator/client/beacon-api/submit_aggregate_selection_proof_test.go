@@ -20,7 +20,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/mock"
 	test_helpers "github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/test-helpers"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestSubmitAggregateSelectionProof(t *testing.T) {

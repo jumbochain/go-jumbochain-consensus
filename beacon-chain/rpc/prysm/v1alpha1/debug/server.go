@@ -14,10 +14,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
 	pbrpc "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	gethlog "github.com/jumbochain/jumbochain-parlia-go/log"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	gethlog "jumbochain.org/log"
 )
 
 // Server defines a server implementation of the gRPC Debug service,

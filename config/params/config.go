@@ -9,7 +9,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
-	"jumbochain.org/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 )
 
 // BeaconChainConfig contains constant configs for node to participate in beacon chain.

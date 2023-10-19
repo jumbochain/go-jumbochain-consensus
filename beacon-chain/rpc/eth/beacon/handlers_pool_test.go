@@ -25,8 +25,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestListAttestations(t *testing.T) {

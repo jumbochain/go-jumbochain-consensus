@@ -39,6 +39,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/local"
 	remoteweb3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
@@ -47,8 +49,6 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // keyFetchPeriod is the frequency that we try to refetch validating keys

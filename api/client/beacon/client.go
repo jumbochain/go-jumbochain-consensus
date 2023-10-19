@@ -22,9 +22,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/common/hexutil"
 )
 
 const (

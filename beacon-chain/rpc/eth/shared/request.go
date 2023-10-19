@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
-	"jumbochain.org/common/hexutil"
 
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync"

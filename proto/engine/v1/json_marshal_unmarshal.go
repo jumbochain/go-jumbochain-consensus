@@ -10,10 +10,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 	"github.com/pkg/errors"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethtypes "jumbochain.org/core/types"
 )
 
 var errExecutionUnmarshal = errors.New("unable to unmarshal execution engine data")

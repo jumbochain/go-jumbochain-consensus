@@ -11,9 +11,9 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common/hexutil"
 )
 
 // SubmitValidatorRegistrations signs validator registration objects and submits it to the beacon node.

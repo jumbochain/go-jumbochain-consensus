@@ -14,12 +14,12 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/apimiddleware"
 	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
 	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 func setWithdrawalAddresses(c *cli.Context) error {

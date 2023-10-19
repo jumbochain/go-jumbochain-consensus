@@ -20,8 +20,8 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
 )
 
 func TestProcessDepositLog_OK(t *testing.T) {

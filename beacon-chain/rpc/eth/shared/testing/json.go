@@ -1,6 +1,6 @@
 package testing
 
-import "jumbochain.org/common/hexutil"
+import "github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 
 const (
 	Phase0Block = `{

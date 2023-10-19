@@ -13,9 +13,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethtypes "jumbochain.org/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 )
 
 type withdrawalJSON struct {

@@ -39,12 +39,12 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/p2p/enr"
 )
 
 const (

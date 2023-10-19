@@ -12,8 +12,8 @@ import (
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
-	gethTypes "jumbochain.org/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	gethTypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 )
 
 func GenerateTestDenebBlockWithSidecar(t *testing.T, parent [32]byte, slot primitives.Slot, nblobs int) (blocks.ROBlock, []*ethpb.BlobSidecar) {

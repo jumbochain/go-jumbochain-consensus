@@ -14,9 +14,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	mock "github.com/jumbochain/go-jumbochain-consensus/validator/accounts/testing"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
-	"jumbochain.org/common/hexutil"
 )
 
 const password = "secretPassw0rd$1999"

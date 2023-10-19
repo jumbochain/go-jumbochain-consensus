@@ -55,13 +55,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/rpc"
 	validatormiddleware "github.com/jumbochain/go-jumbochain-consensus/validator/rpc/apimiddleware"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/web"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	fastssz "github.com/prysmaticlabs/fastssz"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"google.golang.org/protobuf/encoding/protojson"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 	"k8s.io/apimachinery/pkg/util/yaml"
 )
 

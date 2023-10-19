@@ -10,10 +10,10 @@ import (
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 // ENR key used for Ethereum consensus-related fork data.

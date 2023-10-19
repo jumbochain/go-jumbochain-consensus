@@ -22,10 +22,10 @@ import (
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 const blobCommitmentVersionKZG uint8 = 0x01

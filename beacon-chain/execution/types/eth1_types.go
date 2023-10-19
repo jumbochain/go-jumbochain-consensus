@@ -6,8 +6,8 @@ import (
 	"math/big"
 
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 // HeaderInfo specifies the block header information in the ETH 1.0 chain.

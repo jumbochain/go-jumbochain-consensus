@@ -22,9 +22,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
 	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
-	"jumbochain.org/common/hexutil"
 )
 
 const Web3RemoteSignerPort = 9000

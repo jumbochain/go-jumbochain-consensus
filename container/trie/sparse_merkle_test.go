@@ -13,7 +13,7 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
 )
 
 func TestCreateTrieFromProto_Validation(t *testing.T) {

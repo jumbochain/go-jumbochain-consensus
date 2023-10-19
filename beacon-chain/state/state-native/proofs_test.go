@@ -8,7 +8,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/container/trie"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestBeaconStateMerkleProofs_phase0_notsupported(t *testing.T) {

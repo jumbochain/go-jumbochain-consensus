@@ -26,14 +26,14 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
+	gethRPC "github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"google.golang.org/protobuf/proto"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethtypes "jumbochain.org/core/types"
-	"jumbochain.org/rpc"
-	gethRPC "jumbochain.org/rpc"
 )
 
 var (

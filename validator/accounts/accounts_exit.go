@@ -18,9 +18,9 @@ import (
 	beacon_api "github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common/hexutil"
 )
 
 // PerformExitCfg for account voluntary exits.

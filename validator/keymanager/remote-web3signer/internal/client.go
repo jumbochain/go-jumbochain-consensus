@@ -17,10 +17,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
 	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/jumbochain/go-jumbochain-consensus/monitoring/tracing"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common/hexutil"
 )
 
 const (

@@ -14,7 +14,7 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
-	gethtypes "jumbochain.org/core/types"
+	gethtypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 )
 
 func Test_validTerminalPowBlock(t *testing.T) {

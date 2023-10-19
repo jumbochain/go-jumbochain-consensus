@@ -18,13 +18,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/crypto"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"jumbochain.org/common"
-	"jumbochain.org/crypto"
-	"jumbochain.org/p2p/enode"
 )
 
 func TestNodeServer_GetSyncStatus(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"jumbochain.org/common"
-	"jumbochain.org/rpc"
 )
 
 func TestProxy(t *testing.T) {

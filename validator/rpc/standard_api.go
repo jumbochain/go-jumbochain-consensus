@@ -19,13 +19,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/derived"
 	slashingprotection "github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history/format"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
 )
 
 // ListKeystores implements the standard validator key management API.

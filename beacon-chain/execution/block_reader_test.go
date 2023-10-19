@@ -13,9 +13,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/contracts/deposit/mock"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
-	"jumbochain.org/common"
-	"jumbochain.org/common/hexutil"
-	gethTypes "jumbochain.org/core/types"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
+	gethTypes "github.com/jumbochain/jumbochain-parlia-go/core/types"
 )
 
 func setDefaultMocks(service *Service) *Service {

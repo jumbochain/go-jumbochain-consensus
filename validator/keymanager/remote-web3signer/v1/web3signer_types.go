@@ -3,7 +3,7 @@
 package v1
 
 import (
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 // AggregationSlotSignRequest is a request object for web3signer sign api.

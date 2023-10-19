@@ -1,7 +1,7 @@
 package deposit
 
 import (
-	"jumbochain.org/accounts/abi/bind"
+	"github.com/jumbochain/jumbochain-parlia-go/accounts/abi/bind"
 )
 
 // NewDepositContractCallerFromBoundContract creates a new instance of DepositContractCaller, bound to

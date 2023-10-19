@@ -7,13 +7,13 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers"
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers/scorers"
 	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/jumbochain-parlia-go/crypto"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enode"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	log "github.com/sirupsen/logrus"
-	"jumbochain.org/crypto"
-	"jumbochain.org/p2p/enode"
-	"jumbochain.org/p2p/enr"
 )
 
 // MockPeersProvider implements PeersProvider for testing.

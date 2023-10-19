@@ -13,7 +13,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/mock"
 	test_helpers "github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/test-helpers"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func TestProposeBeaconBlock_Altair(t *testing.T) {

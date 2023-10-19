@@ -29,9 +29,9 @@ import (
 	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/tos"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	gethlog "github.com/jumbochain/jumbochain-parlia-go/log"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	gethlog "jumbochain.org/log"
 )
 
 var appFlags = []cli.Flag{

@@ -16,11 +16,11 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
+	"github.com/jumbochain/jumbochain-parlia-go/common"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
-	"jumbochain.org/common"
 )
 
 // used to represent errors for inconsistent slot ranges.

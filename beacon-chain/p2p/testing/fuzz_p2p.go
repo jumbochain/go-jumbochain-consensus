@@ -7,6 +7,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
+	"github.com/jumbochain/jumbochain-parlia-go/p2p/enr"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/control"
 	"github.com/libp2p/go-libp2p/core/host"
@@ -14,7 +15,6 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"google.golang.org/protobuf/proto"
-	"jumbochain.org/p2p/enr"
 )
 
 // FakeP2P stack

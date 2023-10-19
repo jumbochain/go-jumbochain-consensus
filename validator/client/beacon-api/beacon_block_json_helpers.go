@@ -6,7 +6,7 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/apimiddleware"
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
-	"jumbochain.org/common/hexutil"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 )
 
 func jsonifyTransactions(transactions [][]byte) []string {

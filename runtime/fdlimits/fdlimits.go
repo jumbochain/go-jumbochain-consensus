@@ -1,8 +1,8 @@
 package fdlimits
 
 import (
+	"github.com/jumbochain/jumbochain-parlia-go/common/fdlimit"
 	"github.com/sirupsen/logrus"
-	"jumbochain.org/common/fdlimit"
 )
 
 var log = logrus.WithField("prefix", "fdlimits")

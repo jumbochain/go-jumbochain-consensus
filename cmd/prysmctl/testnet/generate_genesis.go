@@ -19,12 +19,12 @@ import (
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
 	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/jumbochain-parlia-go/core"
+	"github.com/jumbochain/jumbochain-parlia-go/ethclient"
+	"github.com/jumbochain/jumbochain-parlia-go/rpc"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/core"
-	"jumbochain.org/ethclient"
-	"jumbochain.org/rpc"
 )
 
 var (

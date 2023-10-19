@@ -15,8 +15,8 @@ import (
 	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
 	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
-	"jumbochain.org/common/hexutil"
 )
 
 // FillRootsNaturalOpt is meant to be used as an option when calling NewBeaconState.

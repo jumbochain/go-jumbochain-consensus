@@ -15,9 +15,9 @@ import (
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/local"
 	"github.com/jumbochain/go-jumbochain-consensus/validator/node"
+	"github.com/jumbochain/jumbochain-parlia-go/common/hexutil"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
-	"jumbochain.org/common/hexutil"
 )
 
 func TestWalletWithKeymanager(t *testing.T) {
