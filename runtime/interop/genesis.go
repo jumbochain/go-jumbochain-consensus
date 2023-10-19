@@ -5,8 +5,8 @@ import (
 	"math"
 	"math/big"
 
-	clparams "github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	clparams "github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"jumbochain.org/common"
 	"jumbochain.org/common/hexutil"
 	"jumbochain.org/core"
@@ -119,23 +119,23 @@ func GethTestnetGenesis(genesisTime uint64, cfg *clparams.BeaconChainConfig) *co
 	// shanghaiTime := GethShanghaiTime(genesisTime, cfg)
 	// cancunTime := GethCancunTime(genesisTime, cfg)
 	cc := &params.ChainConfig{
-		ChainID:                       big.NewInt(defaultTestChainId),
-		HomesteadBlock:                bigz,
-		DAOForkBlock:                  bigz,
-		EIP150Block:                   bigz,
-		EIP155Block:                   bigz,
-		EIP158Block:                   bigz,
-		ByzantiumBlock:                bigz,
-		ConstantinopleBlock:           bigz,
-		PetersburgBlock:               bigz,
-		IstanbulBlock:                 bigz,
-		MuirGlacierBlock:              bigz,
-		BerlinBlock:                   bigz,
-		LondonBlock:                   bigz,
-		ArrowGlacierBlock:             bigz,
+		ChainID:             big.NewInt(defaultTestChainId),
+		HomesteadBlock:      bigz,
+		DAOForkBlock:        bigz,
+		EIP150Block:         bigz,
+		EIP155Block:         bigz,
+		EIP158Block:         bigz,
+		ByzantiumBlock:      bigz,
+		ConstantinopleBlock: bigz,
+		PetersburgBlock:     bigz,
+		IstanbulBlock:       bigz,
+		MuirGlacierBlock:    bigz,
+		BerlinBlock:         bigz,
+		LondonBlock:         bigz,
+		ArrowGlacierBlock:   bigz,
 		// GrayGlacierBlock:              bigz,
 		// MergeNetsplitBlock:            bigz,
-		TerminalTotalDifficulty:       ttd,
+		TerminalTotalDifficulty: ttd,
 		// TerminalTotalDifficultyPassed: false,
 		Clique: &params.CliqueConfig{
 			Period: cfg.SecondsPerETH1Block,

@@ -7,17 +7,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/transition"
+	prysmP2P "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/encoder"
+	p2ptest "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/testing"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/transition"
-	prysmP2P "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/encoder"
-	p2ptest "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/testing"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
 )
 
 func init() {

@@ -9,16 +9,16 @@ import (
 	"os"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	state_native "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 )
 
 var _ runtime.Service = (*Service)(nil)

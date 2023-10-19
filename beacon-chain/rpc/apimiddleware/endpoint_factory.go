@@ -1,8 +1,8 @@
 package apimiddleware
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
 )
 
 // BeaconEndpointFactory creates endpoints used for running beacon chain API calls through the API Middleware.

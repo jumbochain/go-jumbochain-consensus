@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"jumbochain.org/common"
 	"jumbochain.org/common/hexutil"
 )

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	slashertypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/slasher/types"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	slashertypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/slasher/types"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // A struct encapsulating input arguments to

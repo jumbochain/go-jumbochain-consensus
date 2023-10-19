@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/network/authorization"
+	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
 	log "github.com/sirupsen/logrus"
 	gethRPC "jumbochain.org/rpc"
 )

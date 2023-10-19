@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/metadata"
 	"jumbochain.org/p2p/enr"
 )
 

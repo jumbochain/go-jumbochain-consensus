@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/altair"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/spectest/utils"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/altair"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/helpers"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/spectest/utils"
 )
 
 // RunInactivityUpdatesTest executes "epoch_processing/inactivity_updates" tests.

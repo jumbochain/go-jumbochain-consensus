@@ -4,9 +4,9 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"jumbochain.org/common/hexutil"

@@ -4,11 +4,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/container/slice"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/container/slice"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 )
 
 const seedSize = int8(32)

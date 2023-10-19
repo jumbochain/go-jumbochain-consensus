@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/api"
+	"github.com/jumbochain/go-jumbochain-consensus/api/grpc"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/api/grpc"
 )
 
 // DeserializeRequestBodyIntoContainer deserializes the request's body into an endpoint-specific struct.

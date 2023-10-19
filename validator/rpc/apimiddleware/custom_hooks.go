@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
 )
 
 // "/eth/v1/validator/{pubkey}/voluntary_exit" POST expects epoch as a query param.

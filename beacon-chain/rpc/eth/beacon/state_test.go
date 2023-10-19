@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	chainMock "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	dbTest "github.com/prysmaticlabs/prysm/v4/beacon-chain/db/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/testutil"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
-	eth2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	chainMock "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	dbTest "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/testutil"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
+	eth2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 )
 
 func TestGetStateRoot(t *testing.T) {

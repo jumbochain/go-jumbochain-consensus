@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	consensusblocks "github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	consensusblocks "github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 )
 
 var genesisBlockRoot = bytesutil.ToBytes32([]byte{'G', 'E', 'N', 'E', 'S', 'I', 'S'})

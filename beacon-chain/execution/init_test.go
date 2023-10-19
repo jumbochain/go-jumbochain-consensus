@@ -1,7 +1,7 @@
 package execution
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 )
 
 func init() {

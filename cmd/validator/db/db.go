@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/runtime/tos"
-	validatordb "github.com/prysmaticlabs/prysm/v4/validator/db"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/tos"
+	validatordb "github.com/jumbochain/go-jumbochain-consensus/validator/db"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

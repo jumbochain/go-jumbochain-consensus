@@ -3,8 +3,8 @@ package cache
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestValidatorPayloadIDsCache_GetAndSaveValidatorPayloadIDs(t *testing.T) {

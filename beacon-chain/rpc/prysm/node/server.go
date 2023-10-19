@@ -1,11 +1,11 @@
 package node
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/sync"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync"
 )
 
 type Server struct {

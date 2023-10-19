@@ -5,11 +5,11 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
+	lruwrpr "github.com/jumbochain/go-jumbochain-consensus/cache/lru"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/container/slice"
 	"github.com/patrickmn/go-cache"
-	lruwrpr "github.com/prysmaticlabs/prysm/v4/cache/lru"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/container/slice"
 )
 
 type subnetIDs struct {

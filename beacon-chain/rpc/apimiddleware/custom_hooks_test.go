@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/types"
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ethpbv2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	ethpbv2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 )
 
 func TestWrapBLSChangesArray(t *testing.T) {

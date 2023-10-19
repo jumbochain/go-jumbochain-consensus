@@ -1,9 +1,9 @@
 package state_native
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stateutil"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 )
 
 // SetPreviousParticipationBits for the beacon state. Updates the entire

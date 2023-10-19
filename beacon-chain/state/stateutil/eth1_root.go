@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	params "github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	params "github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // Eth1DataRootWithHasher returns the hash tree root of input `eth1Data`.

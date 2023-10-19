@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/components"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/components/eth1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/components"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/components/eth1"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -3,13 +3,13 @@ package migration
 import (
 	"testing"
 
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	ethpbv1 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
+	ethpbv2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"github.com/prysmaticlabs/go-bitfield"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpbv1 "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
-	ethpbv2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
 )
 
 func Test_AltairToV1Alpha1SignedBlock(t *testing.T) {

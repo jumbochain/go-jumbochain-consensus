@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 // RPCGoodbyeCode represents goodbye code, used in sync package.

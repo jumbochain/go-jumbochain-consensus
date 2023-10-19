@@ -3,8 +3,8 @@ package detect
 import (
 	"encoding/binary"
 
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
 )
 
 type fieldType int

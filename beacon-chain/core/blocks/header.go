@@ -5,13 +5,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/helpers"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // ProcessBlockHeader validates a block by its header.

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/urfave/cli/v2"
 )
 

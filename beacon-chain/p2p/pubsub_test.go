@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
+	mock "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/encoder"
+	testp2p "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/startup"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/pkg/errors"
-	mock "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/encoder"
-	testp2p "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 )
 
 func TestService_PublishToTopicConcurrentMapWrite(t *testing.T) {

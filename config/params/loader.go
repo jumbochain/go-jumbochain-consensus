@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/math"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )

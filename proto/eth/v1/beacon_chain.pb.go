@@ -12,8 +12,8 @@ import (
 
 	_ "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	_ "github.com/golang/protobuf/ptypes/timestamp"
-	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	_ "github.com/prysmaticlabs/prysm/v4/proto/eth/ext"
+	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	_ "github.com/jumbochain/go-jumbochain-consensus/proto/eth/ext"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -945,13 +945,13 @@ type ForkChoiceNode struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Slot                     github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Slot  `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Slot"`
+	Slot                     github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Slot  `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Slot"`
 	BlockRoot                []byte                                                             `protobuf:"bytes,2,opt,name=block_root,json=blockRoot,proto3" json:"block_root,omitempty" ssz-size:"32"`
 	ParentRoot               []byte                                                             `protobuf:"bytes,3,opt,name=parent_root,json=parentRoot,proto3" json:"parent_root,omitempty" ssz-size:"32"`
-	JustifiedEpoch           github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,4,opt,name=justified_epoch,json=justifiedEpoch,proto3" json:"justified_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
-	FinalizedEpoch           github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,5,opt,name=finalized_epoch,json=finalizedEpoch,proto3" json:"finalized_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
-	UnrealizedJustifiedEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,6,opt,name=unrealized_justified_epoch,json=unrealizedJustifiedEpoch,proto3" json:"unrealized_justified_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
-	UnrealizedFinalizedEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,7,opt,name=unrealized_finalized_epoch,json=unrealizedFinalizedEpoch,proto3" json:"unrealized_finalized_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
+	JustifiedEpoch           github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,4,opt,name=justified_epoch,json=justifiedEpoch,proto3" json:"justified_epoch,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"`
+	FinalizedEpoch           github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,5,opt,name=finalized_epoch,json=finalizedEpoch,proto3" json:"finalized_epoch,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"`
+	UnrealizedJustifiedEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,6,opt,name=unrealized_justified_epoch,json=unrealizedJustifiedEpoch,proto3" json:"unrealized_justified_epoch,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"`
+	UnrealizedFinalizedEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,7,opt,name=unrealized_finalized_epoch,json=unrealizedFinalizedEpoch,proto3" json:"unrealized_finalized_epoch,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"`
 	Balance                  uint64                                                             `protobuf:"varint,8,opt,name=balance,proto3" json:"balance,omitempty"`
 	Weight                   uint64                                                             `protobuf:"varint,9,opt,name=weight,proto3" json:"weight,omitempty"`
 	ExecutionOptimistic      bool                                                               `protobuf:"varint,10,opt,name=execution_optimistic,json=executionOptimistic,proto3" json:"execution_optimistic,omitempty"`

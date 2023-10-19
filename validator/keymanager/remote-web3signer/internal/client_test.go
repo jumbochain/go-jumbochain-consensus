@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/internal"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/internal"
 	"github.com/stretchr/testify/assert"
 	"jumbochain.org/common/hexutil"
 )

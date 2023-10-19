@@ -3,17 +3,17 @@ package blocks
 import (
 	"testing"
 
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	ssz "github.com/prysmaticlabs/fastssz"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	validatorpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 )
 
 func Test_BeaconBlockIsNil(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	state_native "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // ValidatorCount is for declaring how many validators the benchmarks will be

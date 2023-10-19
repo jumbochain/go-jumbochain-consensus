@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers/scorers"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/time"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers/scorers"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/time"
 )
 
 func TestScorers_BlockProvider_Score(t *testing.T) {

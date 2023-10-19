@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"jumbochain.org/accounts/keystore"
 	"jumbochain.org/core/types"
 	"jumbochain.org/ethclient"

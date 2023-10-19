@@ -1,14 +1,14 @@
 package builder
 
 import (
+	consensus_types "github.com/jumbochain/go-jumbochain-consensus/consensus-types"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
-	consensus_types "github.com/prysmaticlabs/prysm/v4/consensus-types"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 )
 
 // SignedBid is an interface describing the method set of a signed builder bid.

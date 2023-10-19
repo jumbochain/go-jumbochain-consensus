@@ -1,7 +1,7 @@
 package testing
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/metadata"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/metadata"
 )
 
 // MockMetadataProvider is a fake implementation of the MetadataProvider interface.

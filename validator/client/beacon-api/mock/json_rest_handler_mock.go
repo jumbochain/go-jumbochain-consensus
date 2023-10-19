@@ -10,7 +10,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	apimiddleware "github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
+	apimiddleware "github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
 )
 
 // MockjsonRestHandler is a mock of jsonRestHandler interface.

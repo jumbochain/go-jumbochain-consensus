@@ -3,9 +3,9 @@ package util
 import (
 	"fmt"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	v2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	v2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // NewBeaconBlockBellatrix creates a beacon block with minimum marshalable fields.

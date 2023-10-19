@@ -10,15 +10,15 @@ import (
 	"time"
 
 	"github.com/dgraph-io/ristretto"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	prombolt "github.com/prysmaticlabs/prombbolt"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 

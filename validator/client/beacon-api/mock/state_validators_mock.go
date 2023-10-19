@@ -9,8 +9,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	primitives "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/beacon"
+	primitives "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 // MockstateValidatorsProvider is a mock of stateValidatorsProvider interface.

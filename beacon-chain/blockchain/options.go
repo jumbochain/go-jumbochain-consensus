@@ -1,21 +1,21 @@
 package blockchain
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/async/event"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/attestations"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/blstoexec"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/slashings"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/voluntaryexits"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/async/event"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	statefeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/forkchoice"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/attestations"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/blstoexec"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/slashings"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/voluntaryexits"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/startup"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 type Option func(s *Service) error

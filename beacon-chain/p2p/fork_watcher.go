@@ -1,9 +1,9 @@
 package p2p
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/encoder"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/encoder"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 )
 
 // A background routine which listens for new and upcoming forks and

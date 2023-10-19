@@ -1,7 +1,7 @@
 package accounts
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 )
 
 var (

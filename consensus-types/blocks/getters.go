@@ -3,16 +3,16 @@ package blocks
 import (
 	"fmt"
 
+	field_params "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	consensus_types "github.com/jumbochain/go-jumbochain-consensus/consensus-types"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
-	field_params "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	consensus_types "github.com/prysmaticlabs/prysm/v4/consensus-types"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	validatorpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 	log "github.com/sirupsen/logrus"
 )
 

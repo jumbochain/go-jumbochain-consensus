@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	aggtesting "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/attestation/aggregation/testing"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	aggtesting "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/attestation/aggregation/testing"
 )
 
 func BenchmarkMaxCoverProblem_MaxCover(b *testing.B) {

@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
+	state_native "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	common "github.com/jumbochain/go-jumbochain-consensus/testing/spectest/shared/common/ssz_static"
 	fssz "github.com/prysmaticlabs/fastssz"
-	state_native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	common "github.com/prysmaticlabs/prysm/v4/testing/spectest/shared/common/ssz_static"
 )
 
 // RunSSZStaticTests executes "ssz_static" tests.

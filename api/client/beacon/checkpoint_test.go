@@ -9,22 +9,22 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/api/client"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	blocktest "github.com/prysmaticlabs/prysm/v4/consensus-types/blocks/testing"
-	"github.com/prysmaticlabs/prysm/v4/network/forks"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/jumbochain/go-jumbochain-consensus/api/client"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	blocktest "github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/network/forks"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz/detect"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz/detect"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 )
 
 type testRT struct {

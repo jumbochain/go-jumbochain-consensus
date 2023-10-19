@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/validator"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/validator"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 	"jumbochain.org/common/hexutil"
 )
 

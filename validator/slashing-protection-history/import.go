@@ -7,15 +7,15 @@ import (
 	"fmt"
 	"io"
 
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/slashings"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/kv"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/slashings"
-	"github.com/prysmaticlabs/prysm/v4/validator/db"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
-	"github.com/prysmaticlabs/prysm/v4/validator/slashing-protection-history/format"
 )
 
 // ImportStandardProtectionJSON takes in EIP-3076 compliant JSON file used for slashing protection

@@ -25,7 +25,7 @@ import "proto/eth/v1/beacon_state.proto";
 import "proto/eth/v1/validator.proto";
 
 option csharp_namespace = "Ethereum.Eth.V1";
-option go_package = "github.com/prysmaticlabs/prysm/v4/proto/eth/v1";
+option go_package = "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1";
 option java_multiple_files = true;
 option java_outer_classname = "BeaconChainProto";
 option java_package = "org.ethereum.eth.v1";
@@ -152,19 +152,19 @@ message ForkChoiceDump {
 
 message ForkChoiceNode {
     // Slot of the forkchoice node.
-    uint64 slot = 1 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Slot"];
+    uint64 slot = 1 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Slot"];
     // Root of the forkchoice node.
     bytes block_root = 2 [(ethereum.eth.ext.ssz_size) = "32"];
     // Parent root of the forkchoice node.
     bytes parent_root = 3 [(ethereum.eth.ext.ssz_size) = "32"];
     // Justified epoch of the current forkchoice node.
-    uint64 justified_epoch = 4 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"];
+    uint64 justified_epoch = 4 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"];
     // finalized epoch of the current forkchoice node.
-    uint64 finalized_epoch = 5 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"];
+    uint64 finalized_epoch = 5 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"];
     // Unrealized justified epoch of the current forkchoice node.
-    uint64 unrealized_justified_epoch = 6 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"];
+    uint64 unrealized_justified_epoch = 6 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"];
     // Unrealized finalized epoch of the current forkchoice node.
-    uint64 unrealized_finalized_epoch = 7 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"];
+    uint64 unrealized_finalized_epoch = 7 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"];
     // Current balance of the current forkchoice node.
     uint64 balance = 8;
     // Current weight of the current forkchoice node.

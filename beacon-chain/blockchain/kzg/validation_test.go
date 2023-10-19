@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	GoKZG "github.com/crate-crypto/go-kzg-4844"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestIsDataAvailable(t *testing.T) {

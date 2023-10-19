@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sync"
 
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/common"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
 	"github.com/pkg/errors"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

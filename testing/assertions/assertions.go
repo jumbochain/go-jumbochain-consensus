@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/d4l3k/messagediff"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz/equality"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz/equality"
 	"github.com/sirupsen/logrus/hooks/test"
 	"google.golang.org/protobuf/proto"
 )

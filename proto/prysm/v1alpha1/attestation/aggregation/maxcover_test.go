@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
+	aggtesting "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/attestation/aggregation/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/prysmaticlabs/go-bitfield"
-	aggtesting "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/attestation/aggregation/testing"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
 )
 
 func TestMaxCover_MaxCoverCandidates_filter(t *testing.T) {

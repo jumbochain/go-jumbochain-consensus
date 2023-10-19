@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	validatorpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	v1 "github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/v1"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/v1/mock"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	validatorpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	v1 "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer/v1/mock"
 	"jumbochain.org/common/hexutil"
 )
 

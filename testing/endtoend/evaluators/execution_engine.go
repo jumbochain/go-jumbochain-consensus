@@ -4,15 +4,15 @@ import (
 	"context"
 	"strconv"
 
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	mathutil "github.com/jumbochain/go-jumbochain-consensus/math"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/eth/service"
+	v1 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
+	v2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/policies"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	mathutil "github.com/prysmaticlabs/prysm/v4/math"
-	"github.com/prysmaticlabs/prysm/v4/proto/eth/service"
-	v1 "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
-	v2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/policies"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
 	"google.golang.org/grpc"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 )
 
 func TestSSZRequested(t *testing.T) {

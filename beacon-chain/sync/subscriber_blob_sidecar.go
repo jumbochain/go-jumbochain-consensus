@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed"
-	opfeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/operation"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed"
+	opfeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/operation"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"google.golang.org/protobuf/proto"
 )
 

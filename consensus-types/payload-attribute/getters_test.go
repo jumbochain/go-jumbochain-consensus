@@ -3,9 +3,9 @@ package payloadattribute
 import (
 	"testing"
 
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestPayloadAttributeGetters(t *testing.T) {

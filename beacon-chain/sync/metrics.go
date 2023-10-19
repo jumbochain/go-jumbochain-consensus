@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
 )
 
 var (

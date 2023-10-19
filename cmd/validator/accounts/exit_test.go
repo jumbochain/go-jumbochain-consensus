@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/prysmaticlabs/prysm/v4/build/bazel"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	validatormock "github.com/prysmaticlabs/prysm/v4/testing/validator-mock"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/build/bazel"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	validatormock "github.com/jumbochain/go-jumbochain-consensus/testing/validator-mock"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

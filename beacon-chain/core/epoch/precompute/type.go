@@ -1,6 +1,6 @@
 package precompute
 
-import "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+import "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 
 // Validator stores the pre computation of individual validator's attesting records these records
 // consist of attestation votes, block inclusion record. Pre computing and storing such record

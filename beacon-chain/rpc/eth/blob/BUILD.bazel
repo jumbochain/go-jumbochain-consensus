@@ -7,7 +7,7 @@ go_library(
         "server.go",
         "structs.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/blob",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/blob",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/blockchain:go_default_library",

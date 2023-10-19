@@ -7,15 +7,15 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/async/abool"
+	"github.com/jumbochain/go-jumbochain-consensus/async/event"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	prombolt "github.com/prysmaticlabs/prombbolt"
-	"github.com/prysmaticlabs/prysm/v4/async/abool"
-	"github.com/prysmaticlabs/prysm/v4/async/event"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 

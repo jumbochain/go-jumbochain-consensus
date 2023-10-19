@@ -1,12 +1,12 @@
 package sync
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/signing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/signing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 )
 
 // Specifies the fixed size context length.

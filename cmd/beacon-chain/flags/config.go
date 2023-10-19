@@ -1,7 +1,7 @@
 package flags
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
 	"github.com/urfave/cli/v2"
 )
 

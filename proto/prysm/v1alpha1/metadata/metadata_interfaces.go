@@ -1,9 +1,9 @@
 package metadata
 
 import (
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	ssz "github.com/prysmaticlabs/fastssz"
 	"github.com/prysmaticlabs/go-bitfield"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // Metadata returns the interface of a p2p metadata type.

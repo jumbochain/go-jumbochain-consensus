@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"sync"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stateutil"
+	pmath "github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	pmath "github.com/prysmaticlabs/prysm/v4/math"
 )
 
 var (

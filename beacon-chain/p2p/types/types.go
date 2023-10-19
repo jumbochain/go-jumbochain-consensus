@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"sort"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 const rootLength = 32

@@ -1,8 +1,8 @@
 package builder
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/lookup"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/lookup"
 )
 
 type Server struct {

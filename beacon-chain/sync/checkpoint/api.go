@@ -3,10 +3,10 @@ package checkpoint
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/api/client/beacon"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api/client/beacon"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 	log "github.com/sirupsen/logrus"
 )
 

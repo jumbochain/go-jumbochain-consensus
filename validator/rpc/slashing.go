@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 
 	"github.com/golang/protobuf/ptypes/empty"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	slashing "github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history"
 	"github.com/pkg/errors"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	slashing "github.com/prysmaticlabs/prysm/v4/validator/slashing-protection-history"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"

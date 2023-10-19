@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers/peerdata"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	corenet "github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers/peerdata"
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // ListTrustedPeer retrieves data about the node's trusted peers.

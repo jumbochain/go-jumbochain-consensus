@@ -20,11 +20,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/derived"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/local"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/derived"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/local"
 	"github.com/tyler-smith/go-bip39"
 	util "github.com/wealdtech/go-eth2-util"
 )

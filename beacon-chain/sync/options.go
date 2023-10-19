@@ -1,19 +1,19 @@
 package sync
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/async/event"
-	blockfeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/block"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/operation"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/attestations"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/blstoexec"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/slashings"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/synccommittee"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/voluntaryexits"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
+	"github.com/jumbochain/go-jumbochain-consensus/async/event"
+	blockfeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/block"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/operation"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/attestations"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/blstoexec"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/slashings"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/synccommittee"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/voluntaryexits"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/startup"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
 )
 
 type Option func(s *Service) error

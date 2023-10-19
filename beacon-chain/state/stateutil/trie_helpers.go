@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/jumbochain/go-jumbochain-consensus/container/trie"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash/htr"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz"
+	"github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/container/trie"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash/htr"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v4/math"
 )
 
 // ReturnTrieLayer returns the representation of a merkle trie when

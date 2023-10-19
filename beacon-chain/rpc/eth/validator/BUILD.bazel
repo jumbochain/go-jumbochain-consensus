@@ -9,7 +9,7 @@ go_library(
         "structs.go",
         "validator.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/validator",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/validator",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

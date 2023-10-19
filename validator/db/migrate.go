@@ -4,10 +4,10 @@ import (
 	"context"
 	"path"
 
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/kv"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
 	"github.com/urfave/cli/v2"
 )
 

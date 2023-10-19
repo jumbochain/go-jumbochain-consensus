@@ -3,9 +3,9 @@ package state_native
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/types"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 )
 
 // Ensure type BeaconState below implements BeaconState interface.

@@ -9,8 +9,8 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	lruwrpr "github.com/prysmaticlabs/prysm/v4/cache/lru"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
+	lruwrpr "github.com/jumbochain/go-jumbochain-consensus/cache/lru"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 )
 
 var forkChoiceProcessedRootsSize = 1 << 16

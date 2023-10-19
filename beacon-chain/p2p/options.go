@@ -5,6 +5,9 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	ecdsaprysm "github.com/jumbochain/go-jumbochain-consensus/crypto/ecdsa"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -13,9 +16,6 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 )
 
 // MultiAddressBuilder takes in an ip address string and port to produce a go multiaddr format.

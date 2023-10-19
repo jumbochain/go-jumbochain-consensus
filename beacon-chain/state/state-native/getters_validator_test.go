@@ -3,12 +3,12 @@ package state_native_test
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	statenative "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	testtmpl "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/testing"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	statenative "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
+	testtmpl "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/testing"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	"jumbochain.org/common/hexutil"
 )
 

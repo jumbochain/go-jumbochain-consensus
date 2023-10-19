@@ -1,13 +1,13 @@
 package execution
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	"github.com/prysmaticlabs/prysm/v4/network"
-	"github.com/prysmaticlabs/prysm/v4/network/authorization"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	statefeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
+	"github.com/jumbochain/go-jumbochain-consensus/network"
+	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
 	"jumbochain.org/common"
 )
 

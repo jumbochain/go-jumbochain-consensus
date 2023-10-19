@@ -5,11 +5,11 @@ package ssz_test
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	fssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 func FuzzUint64Root(f *testing.F) {

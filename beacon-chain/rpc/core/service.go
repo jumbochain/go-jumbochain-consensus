@@ -1,13 +1,13 @@
 package core
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	opfeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/operation"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/synccommittee"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/sync"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	opfeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/operation"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/synccommittee"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stategen"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync"
 )
 
 type Service struct {

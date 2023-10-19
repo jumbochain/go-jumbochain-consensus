@@ -3,10 +3,10 @@ package accounts
 import (
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/validator/client"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/validator/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/client"
 	"github.com/urfave/cli/v2"
 )
 

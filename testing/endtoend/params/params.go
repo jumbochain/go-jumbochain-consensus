@@ -17,7 +17,7 @@ import (
 	"jumbochain.org/core/types"
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 )
 
 // params struct defines the parameters needed for running E2E tests to properly handle test sharding.

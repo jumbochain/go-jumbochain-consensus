@@ -6,7 +6,7 @@ go_library(
         "log.go",
         "p2p.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/node/registration",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/node/registration",
     visibility = ["//beacon-chain/node:__subpackages__"],
     deps = [
         "//cmd:go_default_library",

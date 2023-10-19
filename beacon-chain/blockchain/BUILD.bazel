@@ -27,7 +27,7 @@ go_library(
         "service.go",
         "weak_subjectivity_checks.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//cmd/beacon-chain:__subpackages__",

@@ -3,8 +3,8 @@ package testutil
 import (
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 // MockGenesisTimeFetcher is a fake implementation of the blockchain.TimeFetcher

@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
 	"jumbochain.org/beacon/engine"
 	"jumbochain.org/common"
 	"jumbochain.org/common/hexutil"

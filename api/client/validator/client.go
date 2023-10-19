@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/api/client"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/rpc/apimiddleware"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api/client"
-	"github.com/prysmaticlabs/prysm/v4/validator/rpc/apimiddleware"
 )
 
 const (

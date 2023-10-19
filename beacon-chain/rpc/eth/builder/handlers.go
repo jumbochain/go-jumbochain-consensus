@@ -6,14 +6,14 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/helpers"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/transition"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/transition"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
 	"jumbochain.org/common/hexutil"
 )
 

@@ -3,12 +3,12 @@ package util
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/signing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/time"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/signing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/time"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestGenerateBLSToExecutionChange(t *testing.T) {

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"reflect"
 
+	customtypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/custom-types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stateutil"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	pmath "github.com/jumbochain/go-jumbochain-consensus/math"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	customtypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/custom-types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	pmath "github.com/prysmaticlabs/prysm/v4/math"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // ProofFromMerkleLayers creates a proof starting at the leaf index of the state Merkle layers.

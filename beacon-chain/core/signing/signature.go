@@ -1,9 +1,9 @@
 package signing
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 var ErrNilRegistration = errors.New("nil signed registration")

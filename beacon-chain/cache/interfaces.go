@@ -4,7 +4,7 @@ import (
 	"context"
 	"math/big"
 
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"jumbochain.org/common"
 )
 

@@ -3,11 +3,11 @@ package sync
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/monitoring/tracing"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v4/monitoring/tracing"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

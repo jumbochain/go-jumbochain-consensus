@@ -1,11 +1,11 @@
 package validator
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/core"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/lookup"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/sync"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/core"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/lookup"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync"
 )
 
 // Server defines a server implementation for HTTP endpoints, providing

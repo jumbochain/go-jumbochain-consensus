@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	mathprysm "github.com/prysmaticlabs/prysm/v4/math"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	mathprysm "github.com/jumbochain/go-jumbochain-consensus/math"
 )
 
 func TestSlot_Casting(t *testing.T) {

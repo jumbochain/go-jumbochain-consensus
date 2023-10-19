@@ -3,8 +3,8 @@ package blockchain
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 )
 
 func TestIsInvalidBlock(t *testing.T) {

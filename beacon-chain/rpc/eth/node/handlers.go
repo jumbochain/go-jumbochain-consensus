@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 	"go.opencensus.io/trace"
 )
 

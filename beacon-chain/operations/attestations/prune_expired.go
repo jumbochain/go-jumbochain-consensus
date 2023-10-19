@@ -3,9 +3,9 @@ package attestations
 import (
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	prysmTime "github.com/prysmaticlabs/prysm/v4/time"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 )
 
 // pruneAttsPool prunes attestations pool on every slot interval.

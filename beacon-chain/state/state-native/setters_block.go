@@ -3,11 +3,11 @@ package state_native
 import (
 	"fmt"
 
-	customtypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/custom-types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	customtypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/custom-types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native/types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/stateutil"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // SetLatestBlockHeader in the beacon state.

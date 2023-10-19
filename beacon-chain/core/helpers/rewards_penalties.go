@@ -3,12 +3,12 @@ package helpers
 import (
 	"errors"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	mathutil "github.com/prysmaticlabs/prysm/v4/math"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	mathutil "github.com/jumbochain/go-jumbochain-consensus/math"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 )
 
 var balanceCache = cache.NewEffectiveBalanceCache()

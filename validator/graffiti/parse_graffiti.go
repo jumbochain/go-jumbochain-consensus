@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
 	"gopkg.in/yaml.v2"
 )
 

@@ -8,15 +8,15 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared"
+	rpctesting "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared/testing"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/mock"
+	test_helpers "github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api/test-helpers"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	rpctesting "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared/testing"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/beacon-api/mock"
-	test_helpers "github.com/prysmaticlabs/prysm/v4/validator/client/beacon-api/test-helpers"
 	"jumbochain.org/common/hexutil"
 )
 

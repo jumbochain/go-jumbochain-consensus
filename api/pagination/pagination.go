@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 )
 
 // StartAndEndPage takes in the requested page token, wanted page size, total page size.

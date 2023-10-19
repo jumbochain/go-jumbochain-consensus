@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/container/slice"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/patrickmn/go-cache"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/container/slice"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
 )
 
 type syncSubnetIDs struct {

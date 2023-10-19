@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	errors2 "github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 )
 
 var (

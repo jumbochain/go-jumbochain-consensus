@@ -1,6 +1,6 @@
 package slashings
 
-import "github.com/prysmaticlabs/prysm/v4/config/params"
+import "github.com/jumbochain/go-jumbochain-consensus/config/params"
 
 // SigningRootsDiffer verifies that an incoming vs. existing attestation has a different signing root.
 // If the existing signing root is empty, then we consider an attestation as different always.

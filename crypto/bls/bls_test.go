@@ -3,8 +3,8 @@ package bls
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/common"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestDisallowZeroSecretKeys(t *testing.T) {

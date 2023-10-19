@@ -5,13 +5,13 @@ import (
 	"context"
 	"time"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	validatorserviceconfig "github.com/prysmaticlabs/prysm/v4/config/validator/service"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	prysmTime "github.com/prysmaticlabs/prysm/v4/time"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	validatorserviceconfig "github.com/jumbochain/go-jumbochain-consensus/config/validator/service"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	log "github.com/sirupsen/logrus"
 )
 

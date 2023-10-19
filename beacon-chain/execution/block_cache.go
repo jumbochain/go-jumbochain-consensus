@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"sync"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution/types"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution/types"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 	"jumbochain.org/common"
 	"k8s.io/client-go/tools/cache"
 )

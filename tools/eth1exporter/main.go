@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/prysmaticlabs/prysm/v4/runtime/maxprocs"
+	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
 	"github.com/sirupsen/logrus"
 	"jumbochain.org/common"
 	"jumbochain.org/ethclient"

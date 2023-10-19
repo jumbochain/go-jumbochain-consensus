@@ -3,9 +3,9 @@ package endtoend
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 )
 
 func TestEndToEnd_MultiScenarioRun_Multiclient(t *testing.T) {

@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	coreState "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/transition"
-	native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	coreState "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/transition"
+	native "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/state-native"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 )
 
 func FuzzPhase0StateHashTreeRoot(f *testing.F) {

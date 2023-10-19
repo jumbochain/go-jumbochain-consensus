@@ -3,8 +3,8 @@ package fdlimits_test
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/runtime/fdlimits"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/fdlimits"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	gethLimit "jumbochain.org/common/fdlimit"
 )
 

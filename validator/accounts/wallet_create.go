@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/derived"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/local"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/derived"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/local"
 )
 
 // WalletCreate creates wallet specified by configuration options.

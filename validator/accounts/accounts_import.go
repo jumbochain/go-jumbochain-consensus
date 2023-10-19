@@ -13,14 +13,14 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
+	ethpbservice "github.com/jumbochain/go-jumbochain-consensus/proto/eth/service"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
-	ethpbservice "github.com/prysmaticlabs/prysm/v4/proto/eth/service"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 )
 

@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/slashings"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/kv"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/slashings"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
 	"go.opencensus.io/trace"
 )
 

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/api/client"
-	"github.com/prysmaticlabs/prysm/v4/api/client/beacon"
+	"github.com/jumbochain/go-jumbochain-consensus/api/client"
+	"github.com/jumbochain/go-jumbochain-consensus/api/client/beacon"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

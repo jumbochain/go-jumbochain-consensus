@@ -3,8 +3,8 @@ package shared
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
 )
 
 func TestDecodeError(t *testing.T) {

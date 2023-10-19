@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 	util "github.com/wealdtech/go-eth2-util"
 )
 

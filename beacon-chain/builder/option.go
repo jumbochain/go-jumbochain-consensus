@@ -1,11 +1,11 @@
 package builder
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/api/client/builder"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/api/client/builder"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
 	"github.com/urfave/cli/v2"
 )
 

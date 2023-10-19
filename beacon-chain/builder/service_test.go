@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	buildertesting "github.com/prysmaticlabs/prysm/v4/api/client/builder/testing"
-	blockchainTesting "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	dbtesting "github.com/prysmaticlabs/prysm/v4/beacon-chain/db/testing"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	buildertesting "github.com/jumbochain/go-jumbochain-consensus/api/client/builder/testing"
+	blockchainTesting "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	dbtesting "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func Test_NewServiceWithBuilder(t *testing.T) {

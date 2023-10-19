@@ -1,8 +1,8 @@
 package bytesutil
 
 import (
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 // EpochToBytesLittleEndian conversion.

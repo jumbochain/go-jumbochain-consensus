@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func Test_VectorizedSha256(t *testing.T) {

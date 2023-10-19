@@ -3,11 +3,11 @@ package forkchoice
 import (
 	"context"
 
-	forkchoicetypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	v1 "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
+	forkchoicetypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/forkchoice/types"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	v1 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
 )
 
 // BalancesByRooter is a handler to obtain the effective balances of the state

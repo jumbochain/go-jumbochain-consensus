@@ -6,9 +6,9 @@ import (
 	neturl "net/url"
 	"strconv"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/beacon"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
 )
 
 type stateValidatorsProvider interface {

@@ -5,12 +5,12 @@ import (
 	"io"
 	"sort"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/checkpoint"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/genesis"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/runtime/debug"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/sync/checkpoint"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/sync/genesis"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/debug"
 	"github.com/urfave/cli/v2"
 )
 

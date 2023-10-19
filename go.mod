@@ -1,4 +1,4 @@
-module github.com/prysmaticlabs/prysm/v4
+module github.com/jumbochain/go-jumbochain-consensus
 
 go 1.20
 

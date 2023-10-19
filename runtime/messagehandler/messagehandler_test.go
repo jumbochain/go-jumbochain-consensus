@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/messagehandler"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/prysmaticlabs/prysm/v4/runtime/messagehandler"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

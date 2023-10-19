@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/api/grpc"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/events"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/api"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/api/grpc"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/events"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/r3labs/sse/v2"
 )
 

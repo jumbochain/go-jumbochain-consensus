@@ -3,11 +3,11 @@ package blocks
 import (
 	"fmt"
 
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 )
 
 var (

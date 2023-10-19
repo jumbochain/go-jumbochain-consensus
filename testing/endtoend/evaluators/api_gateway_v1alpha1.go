@@ -8,11 +8,11 @@ import (
 	"net/http"
 
 	"github.com/golang/protobuf/ptypes/empty"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/policies"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/pkg/errors"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/policies"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
 	"google.golang.org/grpc"
 )
 

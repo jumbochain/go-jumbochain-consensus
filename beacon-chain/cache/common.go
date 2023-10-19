@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"k8s.io/client-go/tools/cache"
 )
 

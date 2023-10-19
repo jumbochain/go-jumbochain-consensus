@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	prysmTime "github.com/prysmaticlabs/prysm/v4/time"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	prysmTime "github.com/jumbochain/go-jumbochain-consensus/time"
 )
 
 func aesCTRXOR(key, inText, iv []byte) ([]byte, error) {

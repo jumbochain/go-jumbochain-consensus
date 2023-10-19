@@ -12,9 +12,9 @@ import (
 
 	"github.com/gorilla/mux"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/runtime"
 	"github.com/rs/cors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"

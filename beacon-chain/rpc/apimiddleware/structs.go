@@ -3,9 +3,9 @@ package apimiddleware
 import (
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	ethpbv2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared"
+	ethpbv2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
 )
 
 //----------------

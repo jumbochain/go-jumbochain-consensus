@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
 	"github.com/logrusorgru/aurora"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

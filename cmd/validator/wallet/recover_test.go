@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/derived"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/validator/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/derived"
 	"github.com/urfave/cli/v2"
 )
 

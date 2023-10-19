@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
+	"github.com/jumbochain/go-jumbochain-consensus/monitoring/clientstats"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prysmaticlabs/prysm/v4/monitoring/clientstats"
 )
 
 type BeaconNodeStatsUpdater interface {

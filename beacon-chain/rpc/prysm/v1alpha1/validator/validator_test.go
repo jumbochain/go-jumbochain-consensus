@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/sirupsen/logrus"
 )
 

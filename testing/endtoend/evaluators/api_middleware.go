@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/prysmaticlabs/prysm/v4/proto/eth/service"
-	ethpbv2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/policies"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/eth/service"
+	ethpbv2 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/policies"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"google.golang.org/grpc"
 )
 

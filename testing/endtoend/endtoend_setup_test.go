@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ev "github.com/prysmaticlabs/prysm/v4/testing/endtoend/evaluators"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/evaluators/beaconapi_evaluators"
-	e2eParams "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	ev "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/evaluators"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/evaluators/beaconapi_evaluators"
+	e2eParams "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func e2eMinimal(t *testing.T, v int, cfgo ...types.E2EConfigOpt) *testRunner {

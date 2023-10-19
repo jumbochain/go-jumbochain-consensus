@@ -10,13 +10,13 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
+	lruwrpr "github.com/jumbochain/go-jumbochain-consensus/cache/lru"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/container/slice"
+	mathutil "github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	lruwrpr "github.com/prysmaticlabs/prysm/v4/cache/lru"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/container/slice"
-	mathutil "github.com/prysmaticlabs/prysm/v4/math"
 )
 
 const (

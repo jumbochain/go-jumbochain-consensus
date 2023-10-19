@@ -12,13 +12,13 @@ import (
 	"syscall"
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
 	log "github.com/sirupsen/logrus"
 )
 

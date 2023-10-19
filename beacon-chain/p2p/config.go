@@ -1,9 +1,9 @@
 package p2p
 
 import (
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
+	statefeed "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/feed/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/startup"
 )
 
 // Config for the p2p service. These parameters are set from application level flags

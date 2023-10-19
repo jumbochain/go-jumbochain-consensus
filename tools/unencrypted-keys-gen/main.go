@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/tools/unencrypted-keys-gen/keygen"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
+	"github.com/jumbochain/go-jumbochain-consensus/tools/unencrypted-keys-gen/keygen"
 )
 
 var (

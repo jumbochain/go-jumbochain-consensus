@@ -3,12 +3,12 @@ package accounts
 import (
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/wallet"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	remote_web3signer "github.com/jumbochain/go-jumbochain-consensus/validator/keymanager/remote-web3signer"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	remote_web3signer "github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer"
 	"github.com/urfave/cli/v2"
 )
 

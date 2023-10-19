@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	mathprysm "github.com/prysmaticlabs/prysm/v4/math"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	mathprysm "github.com/jumbochain/go-jumbochain-consensus/math"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestMaxEpoch(t *testing.T) {

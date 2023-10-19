@@ -11,9 +11,9 @@ import (
 
 	"github.com/MariusVanDerWijden/FuzzyVM/filler"
 	txfuzz "github.com/MariusVanDerWijden/tx-fuzz"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 	"jumbochain.org/accounts/keystore"

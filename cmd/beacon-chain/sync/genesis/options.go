@@ -1,10 +1,10 @@
 package genesis
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/node"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync/genesis"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/sync/checkpoint"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/node"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/sync/genesis"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/checkpoint"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

@@ -2,12 +2,12 @@ package cache
 
 import (
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	lruwrpr "github.com/jumbochain/go-jumbochain-consensus/cache/lru"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	lruwrpr "github.com/prysmaticlabs/prysm/v4/cache/lru"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 var (

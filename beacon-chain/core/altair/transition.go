@@ -3,10 +3,10 @@ package altair
 import (
 	"context"
 
+	e "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/epoch"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/core/epoch/precompute"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
 	"github.com/pkg/errors"
-	e "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/epoch"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/epoch/precompute"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
 	"go.opencensus.io/trace"
 )
 

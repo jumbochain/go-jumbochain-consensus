@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/rand"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
 	"github.com/tyler-smith/go-bip39"
 	"github.com/tyler-smith/go-bip39/wordlists"
 )

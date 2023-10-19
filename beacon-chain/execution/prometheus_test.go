@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
 )
 
 // TestCleanup ensures that the cleanup function unregisters the prometheus.Collection

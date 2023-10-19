@@ -3,8 +3,8 @@ package slashings
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/slashings/mock"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/operations/slashings/mock"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 var (

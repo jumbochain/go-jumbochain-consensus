@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	GoKZG "github.com/crate-crypto/go-kzg-4844"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // IsDataAvailable checks that

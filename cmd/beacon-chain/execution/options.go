@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

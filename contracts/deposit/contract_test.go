@@ -5,12 +5,12 @@ import (
 	"encoding/binary"
 	"testing"
 
-	depositcontract "github.com/prysmaticlabs/prysm/v4/contracts/deposit"
-	"github.com/prysmaticlabs/prysm/v4/contracts/deposit/mock"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"jumbochain.org"
+	"github.com/ethereum/go-ethereum"
+	depositcontract "github.com/jumbochain/go-jumbochain-consensus/contracts/deposit"
+	"github.com/jumbochain/go-jumbochain-consensus/contracts/deposit/mock"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/interop"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"jumbochain.org/common"
 )
 

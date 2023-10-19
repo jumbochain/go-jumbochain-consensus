@@ -10,7 +10,7 @@ go_library(
         "process_request.go",
         "structs.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

@@ -3,10 +3,10 @@ package doublylinkedtree
 import (
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice"
-	forkchoicetypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice/types"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/forkchoice"
+	forkchoicetypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/forkchoice/types"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 // ForkChoice defines the overall fork choice store which includes all block nodes, validator's latest votes and balances.

@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p"
+	p2ptest "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	core "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	p2ptest "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/testing"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
 )
 
 func TestContextWrite_NoWrites(t *testing.T) {

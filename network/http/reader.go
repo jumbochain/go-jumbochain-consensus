@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/api"
+	"github.com/jumbochain/go-jumbochain-consensus/api"
 )
 
 // match a number with optional decimals

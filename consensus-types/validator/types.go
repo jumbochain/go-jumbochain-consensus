@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 )
 
 type ValidatorStatus int8

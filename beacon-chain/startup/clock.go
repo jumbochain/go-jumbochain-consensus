@@ -3,8 +3,8 @@ package startup
 import (
 	"time"
 
-	types "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	types "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/time/slots"
 )
 
 // Nower is a function that can return the current time.

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/prysmaticlabs/prysm/v4/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 )
 
 var (

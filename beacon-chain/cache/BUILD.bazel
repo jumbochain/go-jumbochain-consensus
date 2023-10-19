@@ -26,7 +26,7 @@ go_library(
         "sync_committee_head_state.go",
         "sync_subnet_ids.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/cache",
+    importpath = "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/cache",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//testing/spectest:__subpackages__",

@@ -18,7 +18,7 @@ package ethereum.eth.v2;
 import "proto/eth/ext/options.proto";
 
 option csharp_namespace = "Ethereum.Eth.V2";
-option go_package = "github.com/prysmaticlabs/prysm/v4/proto/eth/v2;eth";
+option go_package = "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v2;eth";
 option java_multiple_files = true;
 option java_outer_classname = "BlobsProto";
 option java_package = "org.ethereum.eth.v2";
@@ -31,9 +31,9 @@ message BlobSidecars {
 message BlobSidecar {
         bytes block_root = 1 [(ethereum.eth.ext.ssz_size) = "32"];
         uint64 index = 2;
-        uint64 slot = 3 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Slot"];
+        uint64 slot = 3 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Slot"];
         bytes block_parent_root = 4 [(ethereum.eth.ext.ssz_size) = "32"];
-        uint64 proposer_index = 5 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.ValidatorIndex"];
+        uint64 proposer_index = 5 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.ValidatorIndex"];
         bytes blob = 6 [(ethereum.eth.ext.ssz_size) = "blob.size"];
         bytes kzg_commitment = 7 [(ethereum.eth.ext.ssz_size) = "48"];
         bytes kzg_proof = 8 [(ethereum.eth.ext.ssz_size) = "48"];
@@ -57,9 +57,9 @@ message SignedBlindedBlobSidecar {
 message BlindedBlobSidecar {
   bytes block_root = 1 [(ethereum.eth.ext.ssz_size) = "32"];
   uint64 index = 2;
-  uint64 slot = 3 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Slot"];
+  uint64 slot = 3 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Slot"];
   bytes block_parent_root = 4 [(ethereum.eth.ext.ssz_size) = "32"];
-  uint64 proposer_index = 5 [(ethereum.eth.ext.cast_type) = "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.ValidatorIndex"];
+  uint64 proposer_index = 5 [(ethereum.eth.ext.cast_type) = "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.ValidatorIndex"];
   bytes blob_root = 6 [(ethereum.eth.ext.ssz_size) = "32"];
   bytes kzg_commitment = 7 [(ethereum.eth.ext.ssz_size) = "48"];
   bytes kzg_proof = 8 [(ethereum.eth.ext.ssz_size) = "48"];

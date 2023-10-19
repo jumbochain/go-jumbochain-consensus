@@ -1,11 +1,11 @@
 package depositsnapshot
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/container/slice"
+	"github.com/jumbochain/go-jumbochain-consensus/container/trie"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/hash"
+	"github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/container/slice"
-	"github.com/prysmaticlabs/prysm/v4/container/trie"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v4/math"
 )
 
 const (

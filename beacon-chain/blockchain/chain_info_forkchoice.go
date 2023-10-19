@@ -3,9 +3,9 @@ package blockchain
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpbv1 "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpbv1 "github.com/jumbochain/go-jumbochain-consensus/proto/eth/v1"
 )
 
 // CachedHeadRoot returns the corresponding value from Forkchoice

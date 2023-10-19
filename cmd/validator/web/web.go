@@ -3,11 +3,11 @@ package web
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/runtime/tos"
-	"github.com/prysmaticlabs/prysm/v4/validator/rpc"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/validator/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/tos"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/rpc"
 	"github.com/urfave/cli/v2"
 )
 

@@ -3,7 +3,7 @@ package benchmark
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestPreGenFullBlock(t *testing.T) {

@@ -3,7 +3,7 @@ package synccommittee
 import (
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/v4/container/queue"
+	"github.com/jumbochain/go-jumbochain-consensus/container/queue"
 )
 
 // Store defines the caches for various sync committee objects

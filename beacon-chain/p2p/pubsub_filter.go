@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/encoder"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/network/forks"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	pubsubpb "github.com/libp2p/go-libp2p-pubsub/pb"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/encoder"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/network/forks"
 )
 
 var _ pubsub.SubscriptionFilter = (*Service)(nil)

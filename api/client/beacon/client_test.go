@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/api/client"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/api/client"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestParseNodeVersion(t *testing.T) {

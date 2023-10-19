@@ -9,13 +9,13 @@ import (
 	"regexp"
 	"strconv"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/apimiddleware"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/beacon"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/validator"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/apimiddleware"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/validator"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
 
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 var beaconAPITogRPCValidatorStatus = map[string]ethpb.ValidatorStatus{

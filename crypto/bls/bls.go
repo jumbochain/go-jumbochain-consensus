@@ -4,9 +4,9 @@
 package bls
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/blst"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/herumi"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/blst"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/common"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/herumi"
 )
 
 // Initialize herumi temporarily while we transition to blst for ethdo.

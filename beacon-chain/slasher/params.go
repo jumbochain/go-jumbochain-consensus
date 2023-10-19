@@ -1,8 +1,8 @@
 package slasher
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 	ssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
 )
 
 // Parameters for slashing detection.

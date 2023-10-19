@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/prysmaticlabs/prysm/v4/cache/nonblocking"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
+	"github.com/jumbochain/go-jumbochain-consensus/cache/nonblocking"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/common"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

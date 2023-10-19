@@ -1,12 +1,12 @@
 package blocks
 
 import (
+	consensus_types "github.com/jumbochain/go-jumbochain-consensus/consensus-types"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 	"github.com/pkg/errors"
-	consensus_types "github.com/prysmaticlabs/prysm/v4/consensus-types"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 	"google.golang.org/protobuf/proto"
 )
 

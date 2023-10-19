@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/middleware/builder"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v4/testing/middleware/builder"
 	"github.com/sirupsen/logrus"
 )
 

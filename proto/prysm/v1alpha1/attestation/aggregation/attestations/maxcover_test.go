@@ -3,11 +3,11 @@ package attestations
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/attestation/aggregation"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/attestation/aggregation"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
 )
 
 func TestAggregateAttestations_MaxCover_NewMaxCover(t *testing.T) {

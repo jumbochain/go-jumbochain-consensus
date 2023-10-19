@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	"jumbochain.org/common/hexutil"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/sync"
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 )
 
 func UintFromQuery(w http.ResponseWriter, r *http.Request, name string) (bool, string, uint64) {

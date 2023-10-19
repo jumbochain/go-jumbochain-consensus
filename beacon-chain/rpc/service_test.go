@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	mock "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	mockExecution "github.com/prysmaticlabs/prysm/v4/beacon-chain/execution/testing"
-	mockSync "github.com/prysmaticlabs/prysm/v4/beacon-chain/sync/initial-sync/testing"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	mock "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	mockExecution "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution/testing"
+	mockSync "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync/initial-sync/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )

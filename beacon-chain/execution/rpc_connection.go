@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	contracts "github.com/jumbochain/go-jumbochain-consensus/contracts/deposit"
+	"github.com/jumbochain/go-jumbochain-consensus/io/logs"
+	"github.com/jumbochain/go-jumbochain-consensus/network"
+	"github.com/jumbochain/go-jumbochain-consensus/network/authorization"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	contracts "github.com/prysmaticlabs/prysm/v4/contracts/deposit"
-	"github.com/prysmaticlabs/prysm/v4/io/logs"
-	"github.com/prysmaticlabs/prysm/v4/network"
-	"github.com/prysmaticlabs/prysm/v4/network/authorization"
 	"jumbochain.org/ethclient"
 	gethRPC "jumbochain.org/rpc"
 )

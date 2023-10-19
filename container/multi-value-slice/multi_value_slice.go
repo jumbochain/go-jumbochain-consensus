@@ -94,7 +94,7 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/prysmaticlabs/prysm/v4/container/multi-value-slice/interfaces"
+	"github.com/jumbochain/go-jumbochain-consensus/container/multi-value-slice/interfaces"
 )
 
 // MultiValueSlice defines an abstraction over all concrete implementations of the generic Slice.

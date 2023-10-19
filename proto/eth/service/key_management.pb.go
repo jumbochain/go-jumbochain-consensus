@@ -13,8 +13,8 @@ import (
 
 	_ "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	empty "github.com/golang/protobuf/ptypes/empty"
-	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	_ "github.com/prysmaticlabs/prysm/v4/proto/eth/ext"
+	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	_ "github.com/jumbochain/go-jumbochain-consensus/proto/eth/ext"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -1250,7 +1250,7 @@ type SetVoluntaryExitRequest struct {
 	unknownFields protoimpl.UnknownFields
 
 	Pubkey []byte                                                             `protobuf:"bytes,1,opt,name=pubkey,proto3" json:"pubkey,omitempty" ssz-size:"48"`
-	Epoch  github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,2,opt,name=epoch,proto3" json:"epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
+	Epoch  github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,2,opt,name=epoch,proto3" json:"epoch,omitempty" cast-type:"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives.Epoch"`
 }
 
 func (x *SetVoluntaryExitRequest) Reset() {

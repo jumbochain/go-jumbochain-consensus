@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/kv"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/slasherkv"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/kv"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/slasherkv"
 )
 
 // SetupDB instantiates and returns database backed by key value store.

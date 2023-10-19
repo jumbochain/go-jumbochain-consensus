@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	validatorserviceconfig "github.com/prysmaticlabs/prysm/v4/config/validator/service"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/iface"
-	iface2 "github.com/prysmaticlabs/prysm/v4/validator/client/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
+	validatorserviceconfig "github.com/jumbochain/go-jumbochain-consensus/config/validator/service"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/iface"
+	iface2 "github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
 )
 
 // Wallet contains an in-memory, simulated wallet implementation.

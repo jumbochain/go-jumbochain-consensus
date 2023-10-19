@@ -3,10 +3,10 @@ package eth1
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/helpers"
+	e2e "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/params"
+	e2etypes "github.com/jumbochain/go-jumbochain-consensus/testing/endtoend/types"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
 )
 
 // NodeSet represents a set of Eth1 nodes, none of which is a mining node.

@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/contracts/deposit"
+	"github.com/jumbochain/go-jumbochain-consensus/contracts/deposit"
 	"jumbochain.org/accounts/abi"
 	"jumbochain.org/accounts/abi/bind"
 	"jumbochain.org/accounts/abi/bind/backends"

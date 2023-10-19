@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
+	ethpbservice "github.com/jumbochain/go-jumbochain-consensus/proto/eth/service"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
-	ethpbservice "github.com/prysmaticlabs/prysm/v4/proto/eth/service"
 )
 
 // Delete the accounts that the user requests to be deleted from the wallet.

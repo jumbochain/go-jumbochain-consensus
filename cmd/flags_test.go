@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/urfave/cli/v2"
 )
 

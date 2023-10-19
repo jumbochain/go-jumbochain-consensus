@@ -5,11 +5,11 @@ package blst
 import (
 	"fmt"
 
+	"github.com/jumbochain/go-jumbochain-consensus/cache/nonblocking"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls/common"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cache/nonblocking"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
 )
 
 var maxKeys = 2_000_000

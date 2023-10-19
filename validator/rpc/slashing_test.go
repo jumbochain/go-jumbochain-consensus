@@ -6,13 +6,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/slashing-protection-history/format"
-	mocks "github.com/prysmaticlabs/prysm/v4/validator/testing"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1/validator-client"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/kv"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/keymanager"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/slashing-protection-history/format"
+	mocks "github.com/jumbochain/go-jumbochain-consensus/validator/testing"
 )
 
 func TestImportSlashingProtection_Preconditions(t *testing.T) {

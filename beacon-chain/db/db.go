@@ -5,7 +5,7 @@ package db
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/kv"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/kv"
 )
 
 // NewDB initializes a new DB.

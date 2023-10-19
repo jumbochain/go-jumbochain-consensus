@@ -3,7 +3,7 @@ package blockchain
 import (
 	"context"
 
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 // SendNewBlobEvent sends a message to the BlobNotifier channel that the blob

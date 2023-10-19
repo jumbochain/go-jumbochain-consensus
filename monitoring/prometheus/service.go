@@ -12,9 +12,9 @@ import (
 	"runtime/pprof"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/runtime"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/prysmaticlabs/prysm/v4/runtime"
 	"github.com/sirupsen/logrus"
 )
 

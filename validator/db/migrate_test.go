@@ -4,10 +4,10 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	dbtest "github.com/prysmaticlabs/prysm/v4/validator/db/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	dbtest "github.com/jumbochain/go-jumbochain-consensus/validator/db/testing"
 	"github.com/urfave/cli/v2"
 )
 

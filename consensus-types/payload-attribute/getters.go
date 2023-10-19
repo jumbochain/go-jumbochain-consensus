@@ -1,9 +1,9 @@
 package payloadattribute
 
 import (
-	consensus_types "github.com/prysmaticlabs/prysm/v4/consensus-types"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	consensus_types "github.com/jumbochain/go-jumbochain-consensus/consensus-types"
+	enginev1 "github.com/jumbochain/go-jumbochain-consensus/proto/engine/v1"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 )
 
 // Version returns the version of the payload attribute.

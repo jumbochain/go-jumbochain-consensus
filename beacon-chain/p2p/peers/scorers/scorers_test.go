@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers/scorers"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/p2p/peers/scorers"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
 	"github.com/sirupsen/logrus"
 )
 

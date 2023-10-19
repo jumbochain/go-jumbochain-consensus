@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 )

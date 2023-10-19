@@ -3,10 +3,10 @@ package ssz_test
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/ssz"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
 )
 
 const merkleizingListLimitError = "merkleizing list that is too large, over limit"

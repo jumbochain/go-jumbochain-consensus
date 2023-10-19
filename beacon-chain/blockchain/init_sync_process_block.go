@@ -3,9 +3,9 @@ package blockchain
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
 )
 
 // This saves a beacon block to the initial sync blocks cache. It rate limits how many blocks

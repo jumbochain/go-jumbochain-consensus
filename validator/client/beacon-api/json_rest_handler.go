@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/jumbochain/go-jumbochain-consensus/api"
+	"github.com/jumbochain/go-jumbochain-consensus/api/gateway/apimiddleware"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/api/gateway/apimiddleware"
 )
 
 type jsonRestHandler interface {

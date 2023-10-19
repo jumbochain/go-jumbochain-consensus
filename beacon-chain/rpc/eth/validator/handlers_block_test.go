@@ -10,15 +10,15 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	blockchainTesting "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	rpctesting "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared/testing"
-	mockSync "github.com/prysmaticlabs/prysm/v4/beacon-chain/sync/initial-sync/testing"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	mock2 "github.com/prysmaticlabs/prysm/v4/testing/mock"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/api"
+	blockchainTesting "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared"
+	rpctesting "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/eth/shared/testing"
+	mockSync "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/sync/initial-sync/testing"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/assert"
+	mock2 "github.com/jumbochain/go-jumbochain-consensus/testing/mock"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func TestProduceBlockV3(t *testing.T) {

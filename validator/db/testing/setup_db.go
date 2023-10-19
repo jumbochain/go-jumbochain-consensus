@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/iface"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/db/kv"
 )
 
 // SetupDB instantiates and returns a DB instance for the validator client.

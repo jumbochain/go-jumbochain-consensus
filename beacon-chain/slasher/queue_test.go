@@ -3,9 +3,9 @@ package slasher
 import (
 	"testing"
 
-	slashertypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/slasher/types"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	slashertypes "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/slasher/types"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func Test_attestationsQueue(t *testing.T) {

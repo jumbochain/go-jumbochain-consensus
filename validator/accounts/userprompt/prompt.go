@@ -1,12 +1,12 @@
 package userprompt
 
 import (
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/validator/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
 	"github.com/logrusorgru/aurora"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
 	"github.com/urfave/cli/v2"
 )
 

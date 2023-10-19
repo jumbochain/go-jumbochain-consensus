@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	bolt "go.etcd.io/bbolt"

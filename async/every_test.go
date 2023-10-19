@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/async"
+	"github.com/jumbochain/go-jumbochain-consensus/async"
 )
 
 func TestEveryRuns(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/lookup"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/lookup"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/blocks"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/interfaces"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 )
 
 // DecodeError represents an error resulting from trying to decode an HTTP request.

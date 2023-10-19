@@ -3,9 +3,9 @@ package genesis
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/api/client/beacon"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api/client/beacon"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
 )
 
 // APIInitializer manages initializing the genesis state and block to prepare the beacon node for syncing.

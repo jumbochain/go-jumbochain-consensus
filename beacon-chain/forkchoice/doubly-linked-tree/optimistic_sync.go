@@ -3,8 +3,8 @@ package doublylinkedtree
 import (
 	"context"
 
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
 )
 
 func (s *Store) setOptimisticToInvalid(ctx context.Context, root, parentRoot, lastValidHash [32]byte) ([][32]byte, error) {

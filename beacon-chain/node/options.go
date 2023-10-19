@@ -1,9 +1,9 @@
 package node
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/builder"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/builder"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/execution"
 )
 
 // Option for beacon node configuration.

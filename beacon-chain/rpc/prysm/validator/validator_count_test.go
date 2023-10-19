@@ -12,19 +12,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/lookup"
-	http2 "github.com/prysmaticlabs/prysm/v4/network/http"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/lookup"
+	http2 "github.com/jumbochain/go-jumbochain-consensus/network/http"
 
 	"github.com/gorilla/mux"
-	chainMock "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/testutil"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	chainMock "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/blockchain/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/rpc/testutil"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
+	eth "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 )
 
 func TestGetValidatorCountInvalidRequest(t *testing.T) {

@@ -3,7 +3,7 @@ package ssz_static
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/spectest/shared/capella/ssz_static"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/spectest/shared/capella/ssz_static"
 )
 
 func TestMainnet_Capella_SSZStatic(t *testing.T) {

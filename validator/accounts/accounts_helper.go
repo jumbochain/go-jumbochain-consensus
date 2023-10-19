@@ -7,16 +7,16 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/validator/flags"
+	fieldparams "github.com/jumbochain/go-jumbochain-consensus/config/fieldparams"
+	"github.com/jumbochain/go-jumbochain-consensus/crypto/bls"
+	"github.com/jumbochain/go-jumbochain-consensus/encoding/bytesutil"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/petnames"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/accounts/userprompt"
 	"github.com/logrusorgru/aurora"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/petnames"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/userprompt"
 	"github.com/urfave/cli/v2"
 )
 

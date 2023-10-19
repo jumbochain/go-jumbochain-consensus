@@ -3,10 +3,10 @@ package state_native
 import (
 	"testing"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state"
+	testtmpl "github.com/jumbochain/go-jumbochain-consensus/beacon-chain/state/testing"
+	ethpb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	testtmpl "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/testing"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
 )
 
 func TestBeaconState_PreviousJustifiedCheckpointNil_Phase0(t *testing.T) {

@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/runtime/version"
 )
 
 func StartAt(v int, c *params.BeaconChainConfig) *params.BeaconChainConfig {

@@ -7,10 +7,10 @@ import (
 	"flag"
 	"net"
 
+	ecdsaprysm "github.com/jumbochain/go-jumbochain-consensus/crypto/ecdsa"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	_ "github.com/jumbochain/go-jumbochain-consensus/runtime/maxprocs"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	_ "github.com/prysmaticlabs/prysm/v4/runtime/maxprocs"
 	log "github.com/sirupsen/logrus"
 	"jumbochain.org/p2p/enode"
 	"jumbochain.org/p2p/enr"

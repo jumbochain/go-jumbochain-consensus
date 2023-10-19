@@ -1,6 +1,6 @@
 package shuffle
 
-import "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+import "github.com/jumbochain/go-jumbochain-consensus/consensus-types/primitives"
 
 // ShuffleTestCase --
 type ShuffleTestCase struct {

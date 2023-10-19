@@ -8,10 +8,10 @@ import (
 	"path"
 	"time"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/iface"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 

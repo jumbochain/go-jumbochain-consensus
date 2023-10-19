@@ -5,17 +5,17 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/jumbochain/go-jumbochain-consensus/cmd/beacon-chain/flags"
+	"github.com/jumbochain/go-jumbochain-consensus/consensus-types/wrapper"
+	mathutil "github.com/jumbochain/go-jumbochain-consensus/math"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/wrapper"
-	mathutil "github.com/prysmaticlabs/prysm/v4/math"
 	"go.opencensus.io/trace"
 	"jumbochain.org/p2p/enode"
 	"jumbochain.org/p2p/enr"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	pb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/jumbochain/go-jumbochain-consensus/config/params"
+	pb "github.com/jumbochain/go-jumbochain-consensus/proto/prysm/v1alpha1"
 )
 
 var attestationSubnetCount = params.BeaconNetworkConfig().AttestationSubnetCount

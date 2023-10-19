@@ -1,11 +1,11 @@
 package validator_client_factory
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	beaconApi "github.com/prysmaticlabs/prysm/v4/validator/client/beacon-api"
-	grpcApi "github.com/prysmaticlabs/prysm/v4/validator/client/grpc-api"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/iface"
-	validatorHelpers "github.com/prysmaticlabs/prysm/v4/validator/helpers"
+	"github.com/jumbochain/go-jumbochain-consensus/config/features"
+	beaconApi "github.com/jumbochain/go-jumbochain-consensus/validator/client/beacon-api"
+	grpcApi "github.com/jumbochain/go-jumbochain-consensus/validator/client/grpc-api"
+	"github.com/jumbochain/go-jumbochain-consensus/validator/client/iface"
+	validatorHelpers "github.com/jumbochain/go-jumbochain-consensus/validator/helpers"
 )
 
 func NewBeaconChainClient(validatorConn validatorHelpers.NodeConnection) iface.BeaconChainClient {

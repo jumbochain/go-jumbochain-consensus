@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	testpb "github.com/prysmaticlabs/prysm/v4/proto/testing"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	testpb "github.com/jumbochain/go-jumbochain-consensus/proto/testing"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
 )
 
 func Test_encode_handlesNilFromFunction(t *testing.T) {

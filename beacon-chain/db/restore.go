@@ -5,11 +5,11 @@ import (
 	"path"
 	"strings"
 
+	"github.com/jumbochain/go-jumbochain-consensus/beacon-chain/db/kv"
+	"github.com/jumbochain/go-jumbochain-consensus/cmd"
+	"github.com/jumbochain/go-jumbochain-consensus/io/file"
+	"github.com/jumbochain/go-jumbochain-consensus/io/prompt"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/kv"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/io/prompt"
 	"github.com/urfave/cli/v2"
 )
 

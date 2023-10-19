@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/require"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/spectest/utils"
+	"github.com/jumbochain/go-jumbochain-consensus/testing/util"
 	fssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/spectest/utils"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
 )
 
 // RunSSZStaticTests executes "ssz_static" tests for the given fork of phase using the provided
